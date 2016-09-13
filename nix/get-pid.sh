@@ -1,0 +1,1 @@
+ps -ef | grep [w]eblogic.Server | awk '{ print $2 }'

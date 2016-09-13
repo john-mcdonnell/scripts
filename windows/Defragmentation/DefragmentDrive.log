@@ -1,0 +1,3342 @@
+Defragmention of Drive "c:" Started 19/02/2008 @22:54:34.10 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 28.50 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.43 GB
+    Free space                      	= 5.07 GB
+    Percent free space              	= 17 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 14 %
+    File fragmentation              	= 27 %
+    Free space fragmentation        	= 1 %
+
+File fragmentation                	 
+    Total files                     	= 317,245
+    Average file size               	= 93 KB
+    Total fragmented files          	= 24,186
+    Total excess fragments          	= 43,921
+    Average fragments per file      	= 1.13
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 1.49 GB
+    Total fragments                 	= 2
+
+Folder fragmentation              	 
+    Total folders                   	= 26,312
+    Fragmented folders              	= 1,577
+    Excess folder fragments         	= 5,722
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 351 MB
+    MFT record count                	= 343,751
+    Percent MFT in use              	= 95
+    Total MFT fragments             	= 12
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 28.50 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.43 GB
+    Free space                      	= 5.07 GB
+    Percent free space              	= 17 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 5 %
+    File fragmentation              	= 10 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 317,245
+    Average file size               	= 93 KB
+    Total fragmented files          	= 2
+    Total excess fragments          	= 93
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 1.49 GB
+    Total fragments                 	= 2
+
+Folder fragmentation              	 
+    Total folders                   	= 26,312
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 351 MB
+    MFT record count                	= 343,751
+    Percent MFT in use              	= 95
+    Total MFT fragments             	= 12
+ 
+ 
+Defragmention of Drive "c:" Finished 20/02/2008 @ 0:10:43.71 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "d:" Started 20/02/2008 @ 0:10:43.75 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 27.39 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 18.29 GB
+    Free space                      	= 9.09 GB
+    Percent free space              	= 33 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 34 %
+    File fragmentation              	= 68 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 124,269
+    Average file size               	= 190 KB
+    Total fragmented files          	= 13,494
+    Total excess fragments          	= 59,562
+    Average fragments per file      	= 1.47
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 19,003
+    Fragmented folders              	= 1,287
+    Excess folder fragments         	= 5,996
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 236 MB
+    MFT record count                	= 143,403
+    Percent MFT in use              	= 59
+    Total MFT fragments             	= 3
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 27.39 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 18.29 GB
+    Free space                      	= 9.09 GB
+    Percent free space              	= 33 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 0 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 124,269
+    Average file size               	= 190 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 0
+    Average fragments per file      	= 0.99
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 19,003
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 236 MB
+    MFT record count                	= 143,403
+    Percent MFT in use              	= 59
+    Total MFT fragments             	= 3
+ 
+ 
+Defragmention of Drive "d:" Finished 20/02/2008 @ 2:10:43.35 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "c:" Started 03/07/2008 @21:50:54.30 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+ 
+ 
+Defragmention of Drive "c:" Finished 03/07/2008 @21:51:04.47 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "d:" Started 03/07/2008 @21:51:04.50 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+ 
+ 
+Defragmention of Drive "d:" Finished 03/07/2008 @21:51:14.78 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "c:" Started 03/07/2008 @23:25:06.56 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 21.20 GB
+    Free space                      	= 16.57 GB
+    Percent free space              	= 43 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 10 %
+    File fragmentation              	= 21 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 100,235
+    Average file size               	= 263 KB
+    Total fragmented files          	= 7,007
+    Total excess fragments          	= 27,358
+    Average fragments per file      	= 1.27
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 1
+
+Folder fragmentation              	 
+    Total folders                   	= 9,158
+    Fragmented folders              	= 354
+    Excess folder fragments         	= 1,167
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 107 MB
+    MFT record count                	= 109,595
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 21.07 GB
+    Free space                      	= 16.71 GB
+    Percent free space              	= 44 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 0 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 100,235
+    Average file size               	= 263 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 0
+    Average fragments per file      	= 0.99
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 1
+
+Folder fragmentation              	 
+    Total folders                   	= 9,158
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 107 MB
+    MFT record count                	= 109,595
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "c:" Finished 04/07/2008 @ 0:03:27.79 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "d:" Started 04/07/2008 @ 0:03:27.82 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 24.38 GB
+    Free space                      	= 49.63 GB
+    Percent free space              	= 67 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 1 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 133,853
+    Average file size               	= 224 KB
+    Total fragmented files          	= 180
+    Total excess fragments          	= 436
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 23,946
+    Fragmented folders              	= 2
+    Excess folder fragments         	= 2
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 157 MB
+    MFT record count                	= 157,876
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 24.38 GB
+    Free space                      	= 49.63 GB
+    Percent free space              	= 67 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 0 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 133,853
+    Average file size               	= 224 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 0
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 23,946
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 157 MB
+    MFT record count                	= 157,876
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "d:" Finished 04/07/2008 @ 0:14:18.82 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "Windows" Started 27/09/2008 @ 0:54:00.33 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "Windows" Finished 27/09/2008 @ 0:54:00.50 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "Data" Started 27/09/2008 @ 0:54:00.51 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "Data" Finished 27/09/2008 @ 0:54:00.59 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "USB03" Started 27/09/2008 @ 0:54:00.61 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "USB03" Finished 27/09/2008 @ 0:54:00.67 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 27/09/2008 @ 0:59:55.31 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 22.61 GB
+    Free space                      	= 15.17 GB
+    Percent free space              	= 40 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 5 %
+    File fragmentation              	= 11 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 133,262
+    Average file size               	= 217 KB
+    Total fragmented files          	= 10,114
+    Total excess fragments          	= 22,458
+    Average fragments per file      	= 1.16
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 1
+
+Folder fragmentation              	 
+    Total folders                   	= 11,250
+    Fragmented folders              	= 312
+    Excess folder fragments         	= 2,146
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 150 MB
+    MFT record count                	= 144,739
+    Percent MFT in use              	= 94
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 22.61 GB
+    Free space                      	= 15.17 GB
+    Percent free space              	= 40 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 0 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 133,262
+    Average file size               	= 217 KB
+    Total fragmented files          	= 1
+    Total excess fragments          	= 7
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 1
+
+Folder fragmentation              	 
+    Total folders                   	= 11,250
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 150 MB
+    MFT record count                	= 144,739
+    Percent MFT in use              	= 94
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "C:" Finished 27/09/2008 @ 1:31:58.65 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 27/09/2008 @ 1:31:58.72 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 47.52 GB
+    Free space                      	= 26.49 GB
+    Percent free space              	= 35 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 26 %
+    File fragmentation              	= 52 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 142,849
+    Average file size               	= 417 KB
+    Total fragmented files          	= 4,996
+    Total excess fragments          	= 34,033
+    Average fragments per file      	= 1.23
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 24,744
+    Fragmented folders              	= 351
+    Excess folder fragments         	= 1,835
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 185 MB
+    MFT record count                	= 167,694
+    Percent MFT in use              	= 88
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 47.52 GB
+    Free space                      	= 26.48 GB
+    Percent free space              	= 35 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 10 %
+    File fragmentation              	= 21 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 142,849
+    Average file size               	= 417 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 0
+    Average fragments per file      	= 0.99
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 24,744
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 185 MB
+    MFT record count                	= 167,694
+    Percent MFT in use              	= 88
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 27/09/2008 @ 3:01:23.31 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:\USB03" Started 27/09/2008 @ 3:01:23.34 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 698 GB
+    Cluster size                    	= 32 KB
+    Used space                      	= 420 GB
+    Free space                      	= 279 GB
+    Percent free space              	= 39 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 7 %
+    File fragmentation              	= 14 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 1,131
+    Average file size               	= 380 MB
+    Total fragmented files          	= 67
+    Total excess fragments          	= 3,546
+    Average fragments per file      	= 4.13
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 439
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 698 GB
+    Cluster size                    	= 32 KB
+    Used space                      	= 420 GB
+    Free space                      	= 279 GB
+    Percent free space              	= 39 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 0 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 1,131
+    Average file size               	= 380 MB
+    Total fragmented files          	= 3
+    Total excess fragments          	= 133
+    Average fragments per file      	= 1.11
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 439
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+ 
+ 
+Defragmention of Drive "C:\USB03" Finished 27/09/2008 @ 6:30:30.56 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 24/11/2008 @19:04:00.06 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.22 GB
+    Free space                      	= 14.56 GB
+    Percent free space              	= 38 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 2 %
+    File fragmentation              	= 4 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 137,952
+    Average file size               	= 213 KB
+    Total fragmented files          	= 1,931
+    Total excess fragments          	= 9,923
+    Average fragments per file      	= 1.07
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 1
+
+Folder fragmentation              	 
+    Total folders                   	= 11,724
+    Fragmented folders              	= 102
+    Excess folder fragments         	= 329
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 150 MB
+    MFT record count                	= 149,893
+    Percent MFT in use              	= 97
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.22 GB
+    Free space                      	= 14.56 GB
+    Percent free space              	= 38 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 0 %
+    File fragmentation              	= 0 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 137,952
+    Average file size               	= 213 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 0
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 1
+
+Folder fragmentation              	 
+    Total folders                   	= 11,724
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 150 MB
+    MFT record count                	= 149,893
+    Percent MFT in use              	= 97
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "C:" Finished 24/11/2008 @19:25:56.93 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 24/11/2008 @19:25:56.98 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 49.84 GB
+    Free space                      	= 24.17 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 23 %
+    File fragmentation              	= 46 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 113,007
+    Average file size               	= 597 KB
+    Total fragmented files          	= 5,763
+    Total excess fragments          	= 63,674
+    Average fragments per file      	= 1.56
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,000
+    Fragmented folders              	= 236
+    Excess folder fragments         	= 2,206
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 130,118
+    Percent MFT in use              	= 63
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 49.84 GB
+    Free space                      	= 24.16 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 15 %
+    File fragmentation              	= 30 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 113,007
+    Average file size               	= 597 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 1,725
+    Average fragments per file      	= 1.01
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,000
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 130,118
+    Percent MFT in use              	= 63
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 24/11/2008 @21:04:44.96 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB02" Started 24/11/2008 @21:04:45.03 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB02" Finished 24/11/2008 @21:04:45.10 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:\USB03" Started 24/11/2008 @21:04:45.14 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+ 
+ 
+Defragmention of Drive "C:\USB03" Finished 24/11/2008 @21:04:45.20 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 11/07/2009 @19:58:12.31 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 25.62 GB
+    Free space                      	= 12.16 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 6 %
+    File fragmentation              	= 13 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 148,046
+    Average file size               	= 215 KB
+    Total fragmented files          	= 2,570
+    Total excess fragments          	= 8,497
+    Average fragments per file      	= 1.05
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 7
+
+Folder fragmentation              	 
+    Total folders                   	= 13,839
+    Fragmented folders              	= 105
+    Excess folder fragments         	= 327
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 160 MB
+    MFT record count                	= 162,043
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+Defragmention of Drive "C:" Started 11/07/2009 @20:26:47.21 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 25.62 GB
+    Free space                      	= 12.16 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 10 %
+    File fragmentation              	= 20 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 148,128
+    Average file size               	= 215 KB
+    Total fragmented files          	= 2,571
+    Total excess fragments          	= 8,117
+    Average fragments per file      	= 1.05
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 13,839
+    Fragmented folders              	= 105
+    Excess folder fragments         	= 329
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 160 MB
+    MFT record count                	= 162,123
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 25.62 GB
+    Free space                      	= 12.16 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 7 %
+    File fragmentation              	= 15 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 148,128
+    Average file size               	= 215 KB
+    Total fragmented files          	= 1
+    Total excess fragments          	= 7
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 13,839
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 160 MB
+    MFT record count                	= 162,123
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "C:" Finished 11/07/2009 @21:04:06.53 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 11/07/2009 @21:04:06.56 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 68.74 GB
+    Free space                      	= 5.26 GB
+    Percent free space              	= 7 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 29 %
+    File fragmentation              	= 58 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 82,638
+    Average file size               	= 1 MB
+    Total fragmented files          	= 1,449
+    Total excess fragments          	= 44,723
+    Average fragments per file      	= 1.54
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 16,021
+    Fragmented folders              	= 407
+    Excess folder fragments         	= 1,778
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 98,901
+    Percent MFT in use              	= 48
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 68.77 GB
+    Free space                      	= 5.24 GB
+    Percent free space              	= 7 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 26 %
+    File fragmentation              	= 53 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 82,638
+    Average file size               	= 1 MB
+    Total fragmented files          	= 20
+    Total excess fragments          	= 19,502
+    Average fragments per file      	= 1.23
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 16,021
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 20
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 98,901
+    Percent MFT in use              	= 48
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 11/07/2009 @22:01:21.73 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB02" Started 11/07/2009 @22:01:21.81 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB02" Finished 11/07/2009 @22:01:21.92 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:\USB03" Started 11/07/2009 @22:01:21.95 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "C:\USB03" Finished 11/07/2009 @22:01:22.01 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 11/07/2009 @22:17:01.56 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 25.62 GB
+    Free space                      	= 12.16 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 7 %
+    File fragmentation              	= 15 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 148,135
+    Average file size               	= 215 KB
+    Total fragmented files          	= 9
+    Total excess fragments          	= 23
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 13,839
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 160 MB
+    MFT record count                	= 162,145
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 25.62 GB
+    Free space                      	= 12.16 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 7 %
+    File fragmentation              	= 15 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 148,135
+    Average file size               	= 215 KB
+    Total fragmented files          	= 2
+    Total excess fragments          	= 8
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 13,839
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 160 MB
+    MFT record count                	= 162,145
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "C:" Finished 11/07/2009 @22:19:36.48 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 11/07/2009 @22:19:36.53 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 60.04 GB
+    Free space                      	= 13.97 GB
+    Percent free space              	= 18 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 26 %
+    File fragmentation              	= 53 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 82,636
+    Average file size               	= 1 MB
+    Total fragmented files          	= 44
+    Total excess fragments          	= 15,055
+    Average fragments per file      	= 1.18
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 16,008
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 2
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 98,869
+    Percent MFT in use              	= 48
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 59.99 GB
+    Free space                      	= 14.02 GB
+    Percent free space              	= 18 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 23 %
+    File fragmentation              	= 47 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 82,636
+    Average file size               	= 1 MB
+    Total fragmented files          	= 10
+    Total excess fragments          	= 12,894
+    Average fragments per file      	= 1.15
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 16,008
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 98,869
+    Percent MFT in use              	= 48
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 11/07/2009 @23:03:58.79 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB02" Started 11/07/2009 @23:03:58.84 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB02" Finished 11/07/2009 @23:03:58.96 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:\USB03" Started 11/07/2009 @23:03:59.01 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "C:\USB03" Finished 11/07/2009 @23:03:59.09 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 04/11/2009 @11:56:10.35 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.87 GB
+    Free space                      	= 13.90 GB
+    Percent free space              	= 36 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 16 %
+    File fragmentation              	= 32 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,211
+    Average file size               	= 197 KB
+    Total fragmented files          	= 3,813
+    Total excess fragments          	= 15,086
+    Average fragments per file      	= 1.09
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 14,741
+    Fragmented folders              	= 85
+    Excess folder fragments         	= 314
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 169,290
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 3
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.88 GB
+    Free space                      	= 13.90 GB
+    Percent free space              	= 36 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 12 %
+    File fragmentation              	= 25 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,211
+    Average file size               	= 197 KB
+    Total fragmented files          	= 3
+    Total excess fragments          	= 12
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 14,741
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 169,290
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 3
+ 
+ 
+Defragmention of Drive "C:" Finished 04/11/2009 @12:19:10.50 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 04/11/2009 @12:19:10.57 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 49.87 GB
+    Free space                      	= 24.14 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 31 %
+    File fragmentation              	= 63 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 93,255
+    Average file size               	= 842 KB
+    Total fragmented files          	= 4,054
+    Total excess fragments          	= 60,627
+    Average fragments per file      	= 1.65
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,319
+    Fragmented folders              	= 101
+    Excess folder fragments         	= 802
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 110,942
+    Percent MFT in use              	= 54
+    Total MFT fragments             	= 2
+Defragmention of Drive "" Started 04/11/2009 @13:34:43.17 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "" Finished 04/11/2009 @13:34:43.81 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 04/11/2009 @13:34:47.59 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.92 GB
+    Free space                      	= 13.85 GB
+    Percent free space              	= 36 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 12 %
+    File fragmentation              	= 25 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,259
+    Average file size               	= 198 KB
+    Total fragmented files          	= 29
+    Total excess fragments          	= 143
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 14,746
+    Fragmented folders              	= 2
+    Excess folder fragments         	= 2
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 169,393
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 3
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.93 GB
+    Free space                      	= 13.85 GB
+    Percent free space              	= 36 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 12 %
+    File fragmentation              	= 25 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,259
+    Average file size               	= 198 KB
+    Total fragmented files          	= 1
+    Total excess fragments          	= 0
+    Average fragments per file      	= 0.99
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 14,746
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 169,393
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 3
+ 
+ 
+Defragmention of Drive "C:" Finished 04/11/2009 @14:04:02.37 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 04/11/2009 @14:04:02.42 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 49.87 GB
+    Free space                      	= 24.13 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 21 %
+    File fragmentation              	= 43 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 93,324
+    Average file size               	= 842 KB
+    Total fragmented files          	= 81
+    Total excess fragments          	= 1,043
+    Average fragments per file      	= 1.01
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,320
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 1
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 111,039
+    Percent MFT in use              	= 54
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 49.80 GB
+    Free space                      	= 24.20 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 10 %
+    File fragmentation              	= 20 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 93,324
+    Average file size               	= 842 KB
+    Total fragmented files          	= 0
+    Total excess fragments          	= 0
+    Average fragments per file      	= 0.99
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,320
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 111,039
+    Percent MFT in use              	= 54
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 04/11/2009 @16:01:02.15 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB02" Started 04/11/2009 @16:01:02.23 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB02" Finished 04/11/2009 @16:01:02.31 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:\USB03" Started 04/11/2009 @16:01:02.34 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "C:\USB03" Finished 04/11/2009 @16:01:02.43 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 04/11/2009 @17:06:56.10 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.92 GB
+    Free space                      	= 13.85 GB
+    Percent free space              	= 36 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 12 %
+    File fragmentation              	= 25 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,186
+    Average file size               	= 198 KB
+    Total fragmented files          	= 80
+    Total excess fragments          	= 980
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 14,746
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 169,325
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 3
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.92 GB
+    Free space                      	= 13.85 GB
+    Percent free space              	= 36 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 12 %
+    File fragmentation              	= 25 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,186
+    Average file size               	= 198 KB
+    Total fragmented files          	= 3
+    Total excess fragments          	= 9
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 3
+
+Folder fragmentation              	 
+    Total folders                   	= 14,746
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 169,325
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 3
+ 
+ 
+Defragmention of Drive "C:" Finished 04/11/2009 @17:16:58.93 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 04/11/2009 @17:16:59.00 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 49.81 GB
+    Free space                      	= 24.20 GB
+    Percent free space              	= 32 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 10 %
+    File fragmentation              	= 20 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 93,341
+    Average file size               	= 842 KB
+    Total fragmented files          	= 113
+    Total excess fragments          	= 2,344
+    Average fragments per file      	= 1.02
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,320
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 2
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 111,057
+    Percent MFT in use              	= 54
+    Total MFT fragments             	= 2
+Defragmention of Drive "C:" Started 20/01/2010 @13:37:14.32 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 24.66 GB
+    Free space                      	= 13.12 GB
+    Percent free space              	= 34 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 14 %
+    File fragmentation              	= 28 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 155,719
+    Average file size               	= 201 KB
+    Total fragmented files          	= 1,120
+    Total excess fragments          	= 4,798
+    Average fragments per file      	= 1.03
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 13
+
+Folder fragmentation              	 
+    Total folders                   	= 15,002
+    Fragmented folders              	= 22
+    Excess folder fragments         	= 35
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 171,068
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 4
+ 
+ 
+Defragmention of Drive "C:" Finished 20/01/2010 @14:06:08.51 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 20/01/2010 @14:06:08.59 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 56.48 GB
+    Free space                      	= 17.53 GB
+    Percent free space              	= 23 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 27 %
+    File fragmentation              	= 54 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 92,216
+    Average file size               	= 961 KB
+    Total fragmented files          	= 2,829
+    Total excess fragments          	= 39,006
+    Average fragments per file      	= 1.42
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,563
+    Fragmented folders              	= 45
+    Excess folder fragments         	= 490
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 110,123
+    Percent MFT in use              	= 54
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 20/01/2010 @14:16:27.78 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB02" Started 20/01/2010 @14:16:27.87 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB02" Finished 20/01/2010 @14:16:28.14 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB03" Started 20/01/2010 @14:16:28.23 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB03" Finished 20/01/2010 @14:16:28.54 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 03/02/2010 @16:01:32.53 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.09 GB
+    Free space                      	= 14.68 GB
+    Percent free space              	= 38 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 14 %
+    File fragmentation              	= 28 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 155,005
+    Average file size               	= 182 KB
+    Total fragmented files          	= 539
+    Total excess fragments          	= 2,758
+    Average fragments per file      	= 1.01
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 13
+
+Folder fragmentation              	 
+    Total folders                   	= 14,933
+    Fragmented folders              	= 8
+    Excess folder fragments         	= 54
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 170,134
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 4
+ 
+ 
+Defragmention of Drive "C:" Finished 03/02/2010 @16:13:53.07 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 03/02/2010 @16:13:53.15 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 59.24 GB
+    Free space                      	= 14.77 GB
+    Percent free space              	= 19 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 30 %
+    File fragmentation              	= 60 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 90,754
+    Average file size               	= 1,005 KB
+    Total fragmented files          	= 2,272
+    Total excess fragments          	= 29,366
+    Average fragments per file      	= 1.32
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,566
+    Fragmented folders              	= 44
+    Excess folder fragments         	= 1,492
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 108,656
+    Percent MFT in use              	= 53
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 03/02/2010 @16:24:17.57 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB02" Started 03/02/2010 @16:24:17.67 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB02" Finished 03/02/2010 @16:24:17.85 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "#C:\USB03" Started 03/02/2010 @16:24:17.92 
+ 
+Usage:
+defrag.exe <volume> [-a] [-f] [-v] [-?]
+  volume  drive letter or mount point (d: or d:\vol\mountpoint)
+  -a      Analyze only
+  -f      Force defragmentation even if free space is low
+  -v      Verbose output
+  -?      Display this help text
+ 
+ 
+Defragmention of Drive "#C:\USB03" Finished 03/02/2010 @16:24:18.07 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 04/02/2010 @13:35:16.65 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 22.89 GB
+    Free space                      	= 14.89 GB
+    Percent free space              	= 39 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 13 %
+    File fragmentation              	= 27 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,983
+    Average file size               	= 183 KB
+    Total fragmented files          	= 314
+    Total excess fragments          	= 1,319
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 13
+
+Folder fragmentation              	 
+    Total folders                   	= 14,937
+    Fragmented folders              	= 7
+    Excess folder fragments         	= 23
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 170,131
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 4
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 23.05 GB
+    Free space                      	= 14.73 GB
+    Percent free space              	= 38 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 13 %
+    File fragmentation              	= 26 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 154,983
+    Average file size               	= 183 KB
+    Total fragmented files          	= 2
+    Total excess fragments          	= 17
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 13
+
+Folder fragmentation              	 
+    Total folders                   	= 14,937
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 167 MB
+    MFT record count                	= 170,131
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 4
+ 
+ 
+Defragmention of Drive "C:" Finished 04/02/2010 @14:27:28.85 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 04/02/2010 @14:27:28.96 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 59.29 GB
+    Free space                      	= 14.71 GB
+    Percent free space              	= 19 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 30 %
+    File fragmentation              	= 60 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 91,006
+    Average file size               	= 1,007 KB
+    Total fragmented files          	= 2,449
+    Total excess fragments          	= 32,195
+    Average fragments per file      	= 1.35
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,571
+    Fragmented folders              	= 45
+    Excess folder fragments         	= 1,504
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 108,909
+    Percent MFT in use              	= 53
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 59.20 GB
+    Free space                      	= 14.80 GB
+    Percent free space              	= 20 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 24 %
+    File fragmentation              	= 48 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 91,006
+    Average file size               	= 1,007 KB
+    Total fragmented files          	= 7
+    Total excess fragments          	= 1,927
+    Average fragments per file      	= 1.02
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,571
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 108,909
+    Percent MFT in use              	= 53
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 04/02/2010 @15:14:53.15 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 14/04/2010 @13:13:35.60 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 33.51 GB
+    Free space                      	= 4.26 GB
+    Percent free space              	= 11 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 27 %
+    File fragmentation              	= 52 %
+    Free space fragmentation        	= 2 %
+
+File fragmentation                	 
+    Total files                     	= 160,063
+    Average file size               	= 259 KB
+    Total fragmented files          	= 7,092
+    Total excess fragments          	= 20,904
+    Average fragments per file      	= 1.13
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 333
+
+Folder fragmentation              	 
+    Total folders                   	= 15,116
+    Fragmented folders              	= 169
+    Excess folder fragments         	= 874
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 176 MB
+    MFT record count                	= 175,528
+    Percent MFT in use              	= 97
+    Total MFT fragments             	= 6
+ 
+ 
+Defragmention of Drive "C:" Finished 14/04/2010 @13:24:31.65 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 14/04/2010 @13:24:31.73 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+ 
+ 
+Defragmention of Drive "D:" Finished 14/04/2010 @13:24:32.15 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 14/04/2010 @13:51:40.43 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 33.51 GB
+    Free space                      	= 4.26 GB
+    Percent free space              	= 11 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 27 %
+    File fragmentation              	= 52 %
+    Free space fragmentation        	= 2 %
+
+File fragmentation                	 
+    Total files                     	= 160,064
+    Average file size               	= 259 KB
+    Total fragmented files          	= 7,091
+    Total excess fragments          	= 20,903
+    Average fragments per file      	= 1.13
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 333
+
+Folder fragmentation              	 
+    Total folders                   	= 15,116
+    Fragmented folders              	= 169
+    Excess folder fragments         	= 874
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 176 MB
+    MFT record count                	= 175,529
+    Percent MFT in use              	= 97
+    Total MFT fragments             	= 6
+ 
+ 
+Defragmention of Drive "C:" Finished 14/04/2010 @14:02:02.06 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 14/04/2010 @14:02:02.12 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+ 
+ 
+Defragmention of Drive "D:" Finished 14/04/2010 @14:02:02.37 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 08/06/2010 @13:50:21.42 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 22.63 GB
+    Free space                      	= 15.14 GB
+    Percent free space              	= 40 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 14 %
+    File fragmentation              	= 29 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 161,813
+    Average file size               	= 170 KB
+    Total fragmented files          	= 8,335
+    Total excess fragments          	= 20,694
+    Average fragments per file      	= 1.12
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 11
+
+Folder fragmentation              	 
+    Total folders                   	= 15,536
+    Fragmented folders              	= 148
+    Excess folder fragments         	= 921
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 176 MB
+    MFT record count                	= 177,566
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 6
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 22.69 GB
+    Free space                      	= 15.09 GB
+    Percent free space              	= 39 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 9 %
+    File fragmentation              	= 19 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 161,813
+    Average file size               	= 170 KB
+    Total fragmented files          	= 3
+    Total excess fragments          	= 1,159
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 11
+
+Folder fragmentation              	 
+    Total folders                   	= 15,536
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 176 MB
+    MFT record count                	= 177,566
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 6
+ 
+ 
+Defragmention of Drive "C:" Finished 08/06/2010 @15:00:29.54 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 08/06/2010 @15:00:29.57 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+ 
+ 
+Defragmention of Drive "D:" Finished 08/06/2010 @15:00:30.37 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 03/08/2010 @12:52:55.03 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 30.70 GB
+    Free space                      	= 7.08 GB
+    Percent free space              	= 18 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 21 %
+    File fragmentation              	= 41 %
+    Free space fragmentation        	= 1 %
+
+File fragmentation                	 
+    Total files                     	= 165,004
+    Average file size               	= 234 KB
+    Total fragmented files          	= 1,670
+    Total excess fragments          	= 14,019
+    Average fragments per file      	= 1.08
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 59
+
+Folder fragmentation              	 
+    Total folders                   	= 15,415
+    Fragmented folders              	= 49
+    Excess folder fragments         	= 208
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 179 MB
+    MFT record count                	= 180,903
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 7
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 30.70 GB
+    Free space                      	= 7.08 GB
+    Percent free space              	= 18 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 19 %
+    File fragmentation              	= 38 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 165,004
+    Average file size               	= 234 KB
+    Total fragmented files          	= 21
+    Total excess fragments          	= 3,878
+    Average fragments per file      	= 1.02
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 59
+
+Folder fragmentation              	 
+    Total folders                   	= 15,415
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 1
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 179 MB
+    MFT record count                	= 180,903
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 7
+ 
+ 
+Defragmention of Drive "C:" Finished 03/08/2010 @13:37:03.90 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 03/08/2010 @13:37:03.95 
+ 
+ 
+ 
+Defragmention of Drive "D:" Finished 03/08/2010 @13:37:04.09 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 05/08/2010 @12:03:39.95 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.09 GB
+    Free space                      	= 11.69 GB
+    Percent free space              	= 30 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 11 %
+    File fragmentation              	= 23 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 165,423
+    Average file size               	= 198 KB
+    Total fragmented files          	= 148
+    Total excess fragments          	= 939
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 59
+
+Folder fragmentation              	 
+    Total folders                   	= 15,520
+    Fragmented folders              	= 7
+    Excess folder fragments         	= 34
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 179 MB
+    MFT record count                	= 181,412
+    Percent MFT in use              	= 99
+    Total MFT fragments             	= 7
+ 
+ 
+Defragmention of Drive "C:" Finished 05/08/2010 @12:16:25.29 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 05/08/2010 @12:16:25.34 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 54.96 GB
+    Free space                      	= 19.05 GB
+    Percent free space              	= 25 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 28 %
+    File fragmentation              	= 56 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 88,792
+    Average file size               	= 996 KB
+    Total fragmented files          	= 5,381
+    Total excess fragments          	= 69,996
+    Average fragments per file      	= 1.78
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,825
+    Fragmented folders              	= 164
+    Excess folder fragments         	= 1,964
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 106,969
+    Percent MFT in use              	= 52
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 54.77 GB
+    Free space                      	= 19.23 GB
+    Percent free space              	= 25 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 21 %
+    File fragmentation              	= 43 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 88,792
+    Average file size               	= 996 KB
+    Total fragmented files          	= 20
+    Total excess fragments          	= 12,310
+    Average fragments per file      	= 1.13
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 17,825
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 106,969
+    Percent MFT in use              	= 52
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 05/08/2010 @13:55:34.96 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 10/01/2011 @15:07:47.98 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.42 GB
+    Free space                      	= 11.35 GB
+    Percent free space              	= 30 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 14 %
+    File fragmentation              	= 28 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 165,218
+    Average file size               	= 201 KB
+    Total fragmented files          	= 2,735
+    Total excess fragments          	= 8,212
+    Average fragments per file      	= 1.04
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 13
+
+Folder fragmentation              	 
+    Total folders                   	= 16,000
+    Fragmented folders              	= 67
+    Excess folder fragments         	= 197
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 179 MB
+    MFT record count                	= 181,712
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 7
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.42 GB
+    Free space                      	= 11.35 GB
+    Percent free space              	= 30 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 11 %
+    File fragmentation              	= 22 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 165,218
+    Average file size               	= 201 KB
+    Total fragmented files          	= 5
+    Total excess fragments          	= 46
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 13
+
+Folder fragmentation              	 
+    Total folders                   	= 16,000
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 179 MB
+    MFT record count                	= 181,712
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 7
+ 
+ 
+Defragmention of Drive "C:" Finished 10/01/2011 @15:40:31.92 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 10/01/2011 @15:40:31.95 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 38.40 GB
+    Free space                      	= 35.61 GB
+    Percent free space              	= 48 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 25 %
+    File fragmentation              	= 50 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 122,967
+    Average file size               	= 453 KB
+    Total fragmented files          	= 3,241
+    Total excess fragments          	= 50,543
+    Average fragments per file      	= 1.41
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 21,807
+    Fragmented folders              	= 443
+    Excess folder fragments         	= 3,431
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 145,142
+    Percent MFT in use              	= 71
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 38.33 GB
+    Free space                      	= 35.68 GB
+    Percent free space              	= 48 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 7 %
+    File fragmentation              	= 14 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 122,967
+    Average file size               	= 453 KB
+    Total fragmented files          	= 21
+    Total excess fragments          	= 3,637
+    Average fragments per file      	= 1.02
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 21,807
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 57
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 145,142
+    Percent MFT in use              	= 71
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 10/01/2011 @17:28:52.96 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 31/03/2011 @11:18:06.20 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.50 GB
+    Free space                      	= 11.28 GB
+    Percent free space              	= 29 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 13 %
+    File fragmentation              	= 27 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 166,074
+    Average file size               	= 200 KB
+    Total fragmented files          	= 1,815
+    Total excess fragments          	= 5,385
+    Average fragments per file      	= 1.03
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 5
+
+Folder fragmentation              	 
+    Total folders                   	= 16,392
+    Fragmented folders              	= 36
+    Excess folder fragments         	= 170
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 181 MB
+    MFT record count                	= 182,948
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 8
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.50 GB
+    Free space                      	= 11.28 GB
+    Percent free space              	= 29 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 11 %
+    File fragmentation              	= 23 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 166,074
+    Average file size               	= 200 KB
+    Total fragmented files          	= 6
+    Total excess fragments          	= 269
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 5
+
+Folder fragmentation              	 
+    Total folders                   	= 16,392
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 181 MB
+    MFT record count                	= 182,948
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 8
+ 
+ 
+Defragmention of Drive "C:" Finished 31/03/2011 @11:42:25.65 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 31/03/2011 @11:42:25.70 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 56.23 GB
+    Free space                      	= 17.78 GB
+    Percent free space              	= 24 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 31 %
+    File fragmentation              	= 62 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 144,572
+    Average file size               	= 547 KB
+    Total fragmented files          	= 2,679
+    Total excess fragments          	= 51,123
+    Average fragments per file      	= 1.35
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 23,818
+    Fragmented folders              	= 386
+    Excess folder fragments         	= 3,099
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 168,890
+    Percent MFT in use              	= 82
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 56.24 GB
+    Free space                      	= 17.76 GB
+    Percent free space              	= 24 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 20 %
+    File fragmentation              	= 40 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 144,572
+    Average file size               	= 547 KB
+    Total fragmented files          	= 25
+    Total excess fragments          	= 7,761
+    Average fragments per file      	= 1.05
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 23,818
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 75
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 168,890
+    Percent MFT in use              	= 82
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 31/03/2011 @13:29:17.68 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 31/03/2011 @14:41:04.42 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.55 GB
+    Free space                      	= 11.23 GB
+    Percent free space              	= 29 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 11 %
+    File fragmentation              	= 23 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 166,106
+    Average file size               	= 201 KB
+    Total fragmented files          	= 14
+    Total excess fragments          	= 328
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 5
+
+Folder fragmentation              	 
+    Total folders                   	= 16,396
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 1
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 181 MB
+    MFT record count                	= 183,027
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 8
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 37.78 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 26.55 GB
+    Free space                      	= 11.23 GB
+    Percent free space              	= 29 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 11 %
+    File fragmentation              	= 23 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 166,106
+    Average file size               	= 201 KB
+    Total fragmented files          	= 6
+    Total excess fragments          	= 269
+    Average fragments per file      	= 1.00
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 2.00 GB
+    Total fragments                 	= 5
+
+Folder fragmentation              	 
+    Total folders                   	= 16,396
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 181 MB
+    MFT record count                	= 183,027
+    Percent MFT in use              	= 98
+    Total MFT fragments             	= 8
+ 
+ 
+Defragmention of Drive "C:" Finished 31/03/2011 @14:47:24.60 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "D:" Started 31/03/2011 @14:47:24.65 
+ 
+Windows Disk Defragmenter
+Copyright (c) 2001 Microsoft Corp. and Executive Software International, Inc.
+
+Analysis Report                   	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 56.17 GB
+    Free space                      	= 17.84 GB
+    Percent free space              	= 24 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 19 %
+    File fragmentation              	= 39 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 144,615
+    Average file size               	= 547 KB
+    Total fragmented files          	= 160
+    Total excess fragments          	= 9,421
+    Average fragments per file      	= 1.06
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 23,819
+    Fragmented folders              	= 2
+    Excess folder fragments         	= 3
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 168,986
+    Percent MFT in use              	= 82
+    Total MFT fragments             	= 2
+
+
+
+Defragmentation Report            	 
+
+    Volume size                     	= 74.00 GB
+    Cluster size                    	= 4 KB
+    Used space                      	= 56.17 GB
+    Free space                      	= 17.84 GB
+    Percent free space              	= 24 %
+
+Volume fragmentation              	 
+    Total fragmentation             	= 17 %
+    File fragmentation              	= 34 %
+    Free space fragmentation        	= 0 %
+
+File fragmentation                	 
+    Total files                     	= 144,615
+    Average file size               	= 547 KB
+    Total fragmented files          	= 14
+    Total excess fragments          	= 5,220
+    Average fragments per file      	= 1.03
+
+Pagefile fragmentation            	 
+    Pagefile size                   	= 0 bytes
+    Total fragments                 	= 0
+
+Folder fragmentation              	 
+    Total folders                   	= 23,819
+    Fragmented folders              	= 1
+    Excess folder fragments         	= 0
+
+Master File Table (MFT) fragmentation 	 
+    Total MFT size                  	= 199 MB
+    MFT record count                	= 168,986
+    Percent MFT in use              	= 82
+    Total MFT fragments             	= 2
+ 
+ 
+Defragmention of Drive "D:" Finished 31/03/2011 @15:21:41.70 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:16:48.78 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:16:52.41 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:16:56.91 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:16:57.56 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:17:29.15 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:17:29.70 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:17:59.86 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:18:00.40 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:19:20.47 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:19:20.97 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:19:30.85 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:19:31.37 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:19:42.33 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @12:19:42.83 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "c:" Started 07/08/2011 @12:20:37.39 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "c:" Finished 07/08/2011 @12:20:37.58 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "c:" Started 07/08/2011 @12:20:58.98 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+The disk defragmenter cannot start because you have insufficient priveleges to perform this operation. (0x89000024)
+ 
+ 
+Defragmention of Drive "c:" Finished 07/08/2011 @12:20:59.28 
+ 
+ 
+******************************************************************************** 
+ 
+ 
+Defragmention of Drive "C:" Started 07/08/2011 @12:22:36.66 
+ 
+Microsoft Disk Defragmenter
+Copyright (c) 2007 Microsoft Corp.
+
+Invoking defragmentation on Acer (C:)...
+
+
+Pre-Defragmentation Report:
+
+	Volume Information:
+		Volume size                 = 215.78 GB
+		Cluster size                = 4 KB
+		Used space                  = 134.55 GB
+		Free space                  = 81.22 GB
+
+	Fragmentation:
+		Total fragmented space      = 15%
+		Average fragments per file  = 1.21
+
+		Movable files and folders   = 437923
+		Unmovable files and folders = 2998
+
+	Files:
+		Fragmented files            = 37229
+		Total file fragments        = 69451
+
+	Folders:
+		Total folders               = 45968
+		Fragmented folders          = 2358
+		Total folder fragments      = 8703
+
+	Free space:
+		Free space count            = 10039
+		Average free space size     = 8.28 MB
+		Largest free space size     = 59.76 GB
+
+	Master File Table (MFT):
+		MFT size                    = 433.75 MB
+		MFT record count            = 444159
+		MFT usage                   = 100%
+		Total MFT fragments         = 11
+
+	Note: File fragments larger than 64MB are not included in the fragmentation statistics.
+
+The operation completed successfully.
+
+Post Defragmentation Report:
+
+	Volume Information:
+		Volume size                 = 215.78 GB
+		Cluster size                = 4 KB
+		Used space                  = 134.55 GB
+		Free space                  = 81.22 GB
+
+	Fragmentation:
+		Total fragmented space      = 0%
+		Average fragments per file  = 1.00
+
+		Movable files and folders   = 437792
+		Unmovable files and folders = 2998
+
+	Files:
+		Fragmented files            = 14
+		Total file fragments        = 35
+
+	Folders:
+		Total folders               = 45967
+		Fragmented folders          = 0
+		Total folder fragments      = 0
+
+	Free space:
+		Free space count            = 567
+		Average free space size     = 161.68 MB
+		Largest free space size     = 55.67 GB
+
+	Master File Table (MFT):
+		MFT size                    = 433.75 MB
+		MFT record count            = 444159
+		MFT usage                   = 100%
+		Total MFT fragments         = 4
+
+	Note: File fragments larger than 64MB are not included in the fragmentation statistics.
+ 
+ 
+Defragmention of Drive "C:" Finished 07/08/2011 @16:13:10.95 
+ 
+ 
+******************************************************************************** 
+ 
+ 

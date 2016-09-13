@@ -1,0 +1,52 @@
+Attributenames.xml: -
+
+	<attribute key="AT_KI_SW_CLOSE_BUS_NWD" name="Close of Business Next Working Day" />
+
+AttributeTypes.xml: -
+
+	<attributedefinition id="1062" key="AT_KI_SW_CLOSE_BUS_NWD" type="TIME" group="AG_KI" />
+
+KeyindicatorConfiguration: -
+
+	<oneleveldim name="SW_CLOSE_BUS_NWD_TIME" dimtype="FUNCTION" internal="no" importmode="OPTIONAL">
+		<description language="en" name="Close of Business Next Working Day Display" />
+		<leveldesc>
+			<dimitem attrname="AT_KI_SW_CLOSE_BUS_NWD" colname="FIRST_ID" calculated="FALSE">
+				<description language="en" name="Close of Business Next Working Day Display" />
+			</dimitem>
+		</leveldesc>
+	</oneleveldim>
+
+	<timedim name="SW_CLOSE_BUS_NWD" dimtype="FUNCTION" precision="MINUTE" tablename="CLOSEBUSNWD"
+		attrname="AT_KI_SW_CLOSE_BUS_NWD" calculated="TRUE" importmode="OPTIONAL">
+		<description language="de" name="Tag" />
+		<description language="en" name="Close of Business Next Working Day" />
+	</timedim>
+
+	<calcattr name="AT_KI_SW_CLOSE_BUS_NWD" type="OT_FUNC">
+		<calculation>
+			<createtimestamp>
+				<createday>
+					<addtimespan>
+						<max>
+							<attribute name="AT_START_TIME" nodetype="OT_FUNC" objectname="this" />
+						</max>
+						<constant>
+							<!-- Time span 86400 seconds (i.e. one day) -->
+							<dataitem value="86400">
+								<datatype name="TIMESPAN" />
+							</dataitem>
+						</constant>
+					</addtimespan>
+				</createday>
+				<constant>
+					<dataitem>23:59:59<datatype name="TIMEOFDAY" /></dataitem>
+				</constant>
+			</createtimestamp>
+		</calculation>
+	</calcattr>
+
+ProcessTree.xml: -
+
+	<usedim name="SW_CLOSE_BUS_NWD" refinement="BY_SECOND" scale="MONTHSCALE" />
+	<usedim name="SW_CLOSE_BUS_NWD_TIME" />

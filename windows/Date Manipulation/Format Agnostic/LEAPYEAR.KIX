@@ -1,0 +1,79 @@
+; LeapYear.kix,  Version 1.00
+; Check if the specified or current year is a leap year
+
+; Default is current year
+If $Year = ""
+	$Year = @YEAR
+EndIf
+
+; Check if the specified parameter is a number
+If Val( $Year ) = 0
+	If "$Year" <> "0"
+		GoTo Syntax
+	EndIf
+EndIf
+
+; Check if the specified year is within range
+If $Year < 1
+	GoTo Syntax
+EndIf
+If $Year > 9999
+	GoTo Syntax
+EndIf
+
+; OK, continue
+$Year = Val( $Year )
+
+; Initialize
+$LeapYear = 0
+; A leap year is any multiple of 4...
+$Test = $Year / 4
+$Test = $Test * 4
+If $Year = $Test
+	$LeapYear = 1
+EndIf
+; ...except if it is a multiple of 100...
+$Test = $Year / 100
+$Test = $Test * 100
+If $Year = $Test
+	$LeapYear = 0
+EndIf
+; ...unless it is a multiple of 400!
+$Test = $Year / 400
+$Test = $Test * 400
+If $Year = $Test
+	$LeapYear = 1
+EndIf
+
+; Display the result
+$Is = "IS"
+If $LeapYear = 0
+	$Is = "is NOT"
+EndIf
+? "$Year $Is a leap year"
+
+; Exit with proper return code
+Quit $LeapYear
+
+
+:Syntax
+? "LeapYear.kix,  Version 1.00"
+? "Check if the specified year is a leap year."
+?
+? "Usage:   KIX32  LEAPYEAR.KIX  [ $$Year=year ]"
+?
+? "Where:   " + Chr(34) + "year" + Chr(34)
+" should be within the range of 1 through 9999."
+? "         Default is the current year, if none is specified."
+?
+? "Returns: 0  if NOT a leap year"
+? "         1  on leap years"
+? "         2  on syntax errors"
+?
+? "Note:    Due to KiXtart's command line parsing, specifying the year 0 on the"
+? "         commandline will have the same effect as not specifying a year at all."
+?
+? "Written by Rob van der Woude"
+? "http://www.robvanderwoude.com"
+?
+Quit 2

@@ -1,0 +1,1 @@
+osql -w 1000 -S (local) -E -d casedata

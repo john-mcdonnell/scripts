@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adminsql/ad_config_3wmr.asp
+[DOC#7#9#10#8#9]
+BASEURL=http://msdn.microsoft.com/library/shared/searchtab/search.asp?stcfg=/library/searchtabconfig.xml&dtcfg=/library/deeptreeconfig.xml&url=/library/en-us/adminsql/ad_config_3wmr.asp?frame=true
+ORIGURL=/library/shared/searchtab/search.asp?stcfg=/library/searchtabconfig.xml&dtcfg=/library/deeptreeconfig.xml&url=/library/en-us/adminsql/ad_config_3wmr.asp?frame=true
+[InternetShortcut]
+URL=http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adminsql/ad_config_3wmr.asp
+Modified=70E421BC6347C601A2
+IconFile=http://msdn.microsoft.com/favicon.ico
+IconIndex=1

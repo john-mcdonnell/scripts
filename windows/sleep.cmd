@@ -1,0 +1,15 @@
+@ECHO OFF
+
+SET SLEEP_DURATION_SECONDS=%1
+SET SLEEP_DURATION_SECONDS_DEFAULT=10
+
+REM If no sleep duration was specified, set it to a default.
+IF "%SLEEP_DURATION_SECONDS%"=="" (SET SLEEP_DURATION_SECONDS=%SLEEP_DURATION_SECONDS_DEFAULT%)
+
+ECHO Sleeping for approximately %SLEEP_DURATION_SECONDS% seconds...
+ping -n %SLEEP_DURATION_SECONDS% 127.0.0.1 2>&1 >NUL
+ECHO Sleeping period of approximately %SLEEP_DURATION_SECONDS% seconds is ended.
+
+:END
+
+EXIT /B

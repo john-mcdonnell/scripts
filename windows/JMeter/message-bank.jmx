@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.4" jmeter="2.9 r1437961">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Message Bank" enabled="true">
+      <stringProp name="TestPlan.comments">AIX Server Name: banrel01 (159.170.56.150)</stringProp>
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">true</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="SERVER" elementType="Argument">
+            <stringProp name="Argument.name">SERVER</stringProp>
+            <stringProp name="Argument.value">localhost</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="HL7" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="ASCII_11_VERTICLE_TAB" elementType="Argument">
+            <stringProp name="Argument.name">ASCII_11_VERTICLE_TAB</stringProp>
+            <stringProp name="Argument.value">${__javaScript(String.fromCharCode(11))}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="ASCII_13_CR" elementType="Argument">
+            <stringProp name="Argument.name">ASCII_13_CR</stringProp>
+            <stringProp name="Argument.value">${__javaScript(String.fromCharCode(13))}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="ASCII_28_FIELD_SEPARATOR" elementType="Argument">
+            <stringProp name="Argument.name">ASCII_28_FIELD_SEPARATOR</stringProp>
+            <stringProp name="Argument.value">${__javaScript(String.fromCharCode(28))}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Failure Expected" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time"></stringProp>
+        <longProp name="ThreadGroup.start_time">1372329908000</longProp>
+        <longProp name="ThreadGroup.end_time">1372329908000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="HL7" enabled="true">
+          <stringProp name="TestPlan.comments">BOD unexpected date format error (PID Segment, Sequence 8).</stringProp>
+          <stringProp name="TCPSampler.server">${SERVER}</stringProp>
+          <boolProp name="TCPSampler.reUseConnection">false</boolProp>
+          <stringProp name="TCPSampler.port">3001</stringProp>
+          <boolProp name="TCPSampler.nodelay">false</boolProp>
+          <stringProp name="TCPSampler.timeout">2000</stringProp>
+          <stringProp name="TCPSampler.request">${ASCII_11_VERTICLE_TAB}MSH|^~\&amp;|Lab|OSH5.61|GE|OSH5.61|200712070936||ORU^R01|20071207L1|T|2.2|||AL|||||${ASCII_13_CR}PID|1||H999900073||TEST^CHILD^2^^^||20070124|M|||^^^^|||||||H00000310|||||||||${ASCII_13_CR}PV1|1|I|MED/SURG UNIT^H.217^1^Calumet Medical Center^||||HOLA^HOLA MD^ALAN^^^^||||||||||HOLA^HOLA MD^HOLA MD^^^^|||||||||||||||||||||||||||200708141353|||||||${ASCII_13_CR}ORC|RE||||||||200712070936|||||||||||${ASCII_13_CR}OBR|1||1203:H00003R^HEMATOLOGY|100.0196^HEMOGRAM^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.0300^WBC            |1|9.0|x1000|6.0-17.5||||F||||||${ASCII_13_CR}OBX|2|ST|100.1100^RBC            |1|4.35|million|3.55-5.15||||F||||||${ASCII_13_CR}OBX|3|ST|100.1200^HGB            |1|11.2|g/dL|9.2-13.6||||F||||||${ASCII_13_CR}OBX|4|ST|100.1300^HCT            |1|37.6|%|35-43||||F||||||${ASCII_13_CR}OBX|5|ST|100.1400^MCV            |1|97.1|fl|73-109||||F||||||${ASCII_13_CR}OBX|6|ST|100.1500^MCH|1|23.4|pg     |21-33||||F||||||${ASCII_13_CR}OBX|7|ST|100.1600^MCHC           |1|34.4|g/dl|32-36||||F||||||${ASCII_13_CR}OBX|8|ST|100.1700^RDW            |1|12.3|%|11.5-14.5||||F||||||${ASCII_13_CR}OBX|9|NM|100.1800^PLT            |1|202|x1000|160-475||||F||||||${ASCII_13_CR}OBX|10|ST|100.1900^MPV            |1|8.1|fl|7.4-10.4||||F||||||${ASCII_13_CR}OBR|2||1203:H00003R^HEMATOLOGY|100.4597^RETICULOCYTE COUNT^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.4605^% RETIC|1|1.89|%|0.45-2.28||||F||||||${ASCII_13_CR}OBX|2|ST|100.4610^ABSOLUTE RETIC|1|0.06|X10^6|0.02-0.11||||F||||||${ASCII_13_CR}OBX|3|ST|100.46105^RETIC IMMATURE|1|0.20|RATIO|0.163-0.362||||F||||||${ASCII_13_CR}${ASCII_28_FIELD_SEPARATOR}${ASCII_13_CR}</stringProp>
+          <boolProp name="TCPSampler.closeConnection">false</boolProp>
+          <stringProp name="TCPSampler.EolByte">13</stringProp>
+          <stringProp name="ConfigTestElement.username"></stringProp>
+          <stringProp name="ConfigTestElement.password"></stringProp>
+        </TCPSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+        <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="HL7" enabled="true">
+          <stringProp name="TestPlan.comments">Not a HL7 message.</stringProp>
+          <stringProp name="TCPSampler.server">${SERVER}</stringProp>
+          <boolProp name="TCPSampler.reUseConnection">false</boolProp>
+          <stringProp name="TCPSampler.port">3001</stringProp>
+          <boolProp name="TCPSampler.nodelay">false</boolProp>
+          <stringProp name="TCPSampler.timeout">2000</stringProp>
+          <stringProp name="TCPSampler.request">Hello World!!</stringProp>
+          <boolProp name="TCPSampler.closeConnection">false</boolProp>
+          <stringProp name="TCPSampler.EolByte">13</stringProp>
+          <stringProp name="ConfigTestElement.username"></stringProp>
+          <stringProp name="ConfigTestElement.password"></stringProp>
+        </TCPSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+        <PublisherSampler guiclass="JMSPublisherGui" testclass="PublisherSampler" testname="JMS" enabled="true">
+          <stringProp name="jms.jndi_properties">false</stringProp>
+          <stringProp name="jms.initial_context_factory">org.apache.activemq.jndi.ActiveMQInitialContextFactory</stringProp>
+          <stringProp name="jms.provider_url">tcp://localhost:61620?keepAlive=true</stringProp>
+          <stringProp name="jms.connection_factory">ConnectionFactory</stringProp>
+          <stringProp name="jms.topic">dynamicQueues/JMS-C-A-OW</stringProp>
+          <stringProp name="jms.security_principle"></stringProp>
+          <stringProp name="jms.security_credentials"></stringProp>
+          <stringProp name="jms.text_message">Hello World!!</stringProp>
+          <stringProp name="jms.input_file"></stringProp>
+          <stringProp name="jms.random_path"></stringProp>
+          <stringProp name="jms.config_choice">jms_use_text</stringProp>
+          <stringProp name="jms.config_msg_type">jms_text_message</stringProp>
+          <stringProp name="jms.iterations">1</stringProp>
+          <boolProp name="jms.authenticate">false</boolProp>
+          <elementProp name="jms.jmsProperties" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="TestPlan.comments">Not a HL7 message.</stringProp>
+        </PublisherSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+        <PublisherSampler guiclass="JMSPublisherGui" testclass="PublisherSampler" testname="Queue" enabled="true">
+          <stringProp name="jms.jndi_properties">false</stringProp>
+          <stringProp name="jms.initial_context_factory">org.apache.activemq.jndi.ActiveMQInitialContextFactory</stringProp>
+          <stringProp name="jms.provider_url">tcp://${SERVER}:61717?keepAlive=true</stringProp>
+          <stringProp name="jms.connection_factory">ConnectionFactory</stringProp>
+          <stringProp name="jms.topic">dynamicQueues/Queue-C-A-OW</stringProp>
+          <stringProp name="jms.security_principle"></stringProp>
+          <stringProp name="jms.security_credentials"></stringProp>
+          <stringProp name="jms.text_message">Hello World!!</stringProp>
+          <stringProp name="jms.input_file"></stringProp>
+          <stringProp name="jms.random_path"></stringProp>
+          <stringProp name="jms.config_choice">jms_use_text</stringProp>
+          <stringProp name="jms.config_msg_type">jms_text_message</stringProp>
+          <stringProp name="jms.iterations">1</stringProp>
+          <boolProp name="jms.authenticate">false</boolProp>
+          <elementProp name="jms.jmsProperties" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="TestPlan.comments">Not a HL7 message.</stringProp>
+        </PublisherSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Success Expected" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time"></stringProp>
+        <longProp name="ThreadGroup.start_time">1364469135000</longProp>
+        <longProp name="ThreadGroup.end_time">1364469135000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="HL7 (USA)" enabled="true">
+          <stringProp name="TCPSampler.server">${SERVER}</stringProp>
+          <boolProp name="TCPSampler.reUseConnection">false</boolProp>
+          <stringProp name="TCPSampler.port">3002</stringProp>
+          <boolProp name="TCPSampler.nodelay">false</boolProp>
+          <stringProp name="TCPSampler.timeout">60000</stringProp>
+          <stringProp name="TCPSampler.request">${ASCII_11_VERTICLE_TAB}MSH|^~\&amp;|Lab|OSH5.61|GE|OSH5.61|200712070936||ORU^R01|20071207L1|T|2.2|||AL|||||${ASCII_13_CR}PID|1||H999900073||TEST^CHILD^2^^^||200701115|M|||254 MYSTREET AVE^^MYTOWN^OH^44123^USA|||||||H00000310|||||||||${ASCII_13_CR}PV1|1|I|MED/SURG UNIT^H.217^1^Calumet Medical Center^||||HOLA^HOLA MD^ALAN^^^^||||||||||HOLA^HOLA MD^HOLA MD^^^^|||||||||||||||||||||||||||200708141353|||||||${ASCII_13_CR}ORC|RE||||||||200712070936|||||||||||${ASCII_13_CR}OBR|1||1203:H00003R^HEMATOLOGY|100.0196^HEMOGRAM^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.0300^WBC            |1|9.0|x1000|6.0-17.5||||F||||||${ASCII_13_CR}OBX|2|ST|100.1100^RBC            |1|4.35|million|3.55-5.15||||F||||||${ASCII_13_CR}OBX|3|ST|100.1200^HGB            |1|11.2|g/dL|9.2-13.6||||F||||||${ASCII_13_CR}OBX|4|ST|100.1300^HCT            |1|37.6|%|35-43||||F||||||${ASCII_13_CR}OBX|5|ST|100.1400^MCV            |1|97.1|fl|73-109||||F||||||${ASCII_13_CR}OBX|6|ST|100.1500^MCH|1|23.4|pg     |21-33||||F||||||${ASCII_13_CR}OBX|7|ST|100.1600^MCHC           |1|34.4|g/dl|32-36||||F||||||${ASCII_13_CR}OBX|8|ST|100.1700^RDW            |1|12.3|%|11.5-14.5||||F||||||${ASCII_13_CR}OBX|9|NM|100.1800^PLT            |1|202|x1000|160-475||||F||||||${ASCII_13_CR}OBX|10|ST|100.1900^MPV            |1|8.1|fl|7.4-10.4||||F||||||${ASCII_13_CR}OBR|2||1203:H00003R^HEMATOLOGY|100.4597^RETICULOCYTE COUNT^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.4605^% RETIC|1|1.89|%|0.45-2.28||||F||||||${ASCII_13_CR}OBX|2|ST|100.4610^ABSOLUTE RETIC|1|0.06|X10^6|0.02-0.11||||F||||||${ASCII_13_CR}OBX|3|ST|100.46105^RETIC IMMATURE|1|0.20|RATIO|0.163-0.362||||F||||||${ASCII_13_CR}${ASCII_28_FIELD_SEPARATOR}${ASCII_13_CR}</stringProp>
+          <boolProp name="TCPSampler.closeConnection">false</boolProp>
+          <stringProp name="TCPSampler.EolByte">13</stringProp>
+          <stringProp name="ConfigTestElement.username"></stringProp>
+          <stringProp name="ConfigTestElement.password"></stringProp>
+        </TCPSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+        <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="HL7 (UK)" enabled="false">
+          <stringProp name="TCPSampler.server">${SERVER}</stringProp>
+          <boolProp name="TCPSampler.reUseConnection">false</boolProp>
+          <stringProp name="TCPSampler.port">3001</stringProp>
+          <boolProp name="TCPSampler.nodelay">false</boolProp>
+          <stringProp name="TCPSampler.timeout">60000</stringProp>
+          <stringProp name="TCPSampler.request">${ASCII_11_VERTICLE_TAB}MSH|^~\&amp;|Lab|OSH5.61|GE|OSH5.61|200712070936||ORU^R01|20071207L1|T|2.2|||AL|||||${ASCII_13_CR}PID|1||H999900073||TEST^CHILD^2^^^||20070115|M|||^^^^^UK|||||||H00000310|||||||||${ASCII_13_CR}PV1|1|I|MED/SURG UNIT^H.217^1^Calumet Medical Center^||||HOLA^HOLA MD^ALAN^^^^||||||||||HOLA^HOLA MD^HOLA MD^^^^|||||||||||||||||||||||||||200708141353|||||||${ASCII_13_CR}ORC|RE||||||||200712070936|||||||||||${ASCII_13_CR}OBR|1||1203:H00003R^HEMATOLOGY|100.0196^HEMOGRAM^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.0300^WBC            |1|9.0|x1000|6.0-17.5||||F||||||${ASCII_13_CR}OBX|2|ST|100.1100^RBC            |1|4.35|million|3.55-5.15||||F||||||${ASCII_13_CR}OBX|3|ST|100.1200^HGB            |1|11.2|g/dL|9.2-13.6||||F||||||${ASCII_13_CR}OBX|4|ST|100.1300^HCT            |1|37.6|%|35-43||||F||||||${ASCII_13_CR}OBX|5|ST|100.1400^MCV            |1|97.1|fl|73-109||||F||||||${ASCII_13_CR}OBX|6|ST|100.1500^MCH|1|23.4|pg     |21-33||||F||||||${ASCII_13_CR}OBX|7|ST|100.1600^MCHC           |1|34.4|g/dl|32-36||||F||||||${ASCII_13_CR}OBX|8|ST|100.1700^RDW            |1|12.3|%|11.5-14.5||||F||||||${ASCII_13_CR}OBX|9|NM|100.1800^PLT            |1|202|x1000|160-475||||F||||||${ASCII_13_CR}OBX|10|ST|100.1900^MPV            |1|8.1|fl|7.4-10.4||||F||||||${ASCII_13_CR}OBR|2||1203:H00003R^HEMATOLOGY|100.4597^RETICULOCYTE COUNT^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.4605^% RETIC|1|1.89|%|0.45-2.28||||F||||||${ASCII_13_CR}OBX|2|ST|100.4610^ABSOLUTE RETIC|1|0.06|X10^6|0.02-0.11||||F||||||${ASCII_13_CR}OBX|3|ST|100.46105^RETIC IMMATURE|1|0.20|RATIO|0.163-0.362||||F||||||${ASCII_13_CR}${ASCII_28_FIELD_SEPARATOR}${ASCII_13_CR}</stringProp>
+          <boolProp name="TCPSampler.closeConnection">false</boolProp>
+          <stringProp name="TCPSampler.EolByte">13</stringProp>
+          <stringProp name="ConfigTestElement.username"></stringProp>
+          <stringProp name="ConfigTestElement.password"></stringProp>
+        </TCPSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+        <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="HL7 (India)" enabled="false">
+          <stringProp name="TCPSampler.server">${SERVER}</stringProp>
+          <boolProp name="TCPSampler.reUseConnection">false</boolProp>
+          <stringProp name="TCPSampler.port">3001</stringProp>
+          <boolProp name="TCPSampler.nodelay">false</boolProp>
+          <stringProp name="TCPSampler.timeout">60000</stringProp>
+          <stringProp name="TCPSampler.request">${ASCII_11_VERTICLE_TAB}MSH|^~\&amp;|Lab|OSH5.61|GE|OSH5.61|200712070936||ORU^R01|20071207L1|T|2.2|||AL|||||${ASCII_13_CR}PID|1||H999900073||TEST^CHILD^2^^^||20070115|M|||^^^^^India|||||||H00000310|||||||||${ASCII_13_CR}PV1|1|I|MED/SURG UNIT^H.217^1^Calumet Medical Center^||||HOLA^HOLA MD^ALAN^^^^||||||||||HOLA^HOLA MD^HOLA MD^^^^|||||||||||||||||||||||||||200708141353|||||||${ASCII_13_CR}ORC|RE||||||||200712070936|||||||||||${ASCII_13_CR}OBR|1||1203:H00003R^HEMATOLOGY|100.0196^HEMOGRAM^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.0300^WBC            |1|9.0|x1000|6.0-17.5||||F||||||${ASCII_13_CR}OBX|2|ST|100.1100^RBC            |1|4.35|million|3.55-5.15||||F||||||${ASCII_13_CR}OBX|3|ST|100.1200^HGB            |1|11.2|g/dL|9.2-13.6||||F||||||${ASCII_13_CR}OBX|4|ST|100.1300^HCT            |1|37.6|%|35-43||||F||||||${ASCII_13_CR}OBX|5|ST|100.1400^MCV            |1|97.1|fl|73-109||||F||||||${ASCII_13_CR}OBX|6|ST|100.1500^MCH|1|23.4|pg     |21-33||||F||||||${ASCII_13_CR}OBX|7|ST|100.1600^MCHC           |1|34.4|g/dl|32-36||||F||||||${ASCII_13_CR}OBX|8|ST|100.1700^RDW            |1|12.3|%|11.5-14.5||||F||||||${ASCII_13_CR}OBX|9|NM|100.1800^PLT            |1|202|x1000|160-475||||F||||||${ASCII_13_CR}OBX|10|ST|100.1900^MPV            |1|8.1|fl|7.4-10.4||||F||||||${ASCII_13_CR}OBR|2||1203:H00003R^HEMATOLOGY|100.4597^RETICULOCYTE COUNT^LAB|||200712031056|||||||200712031056||MISC^MISCELLANEOUS^DOCTOR^^^^|||||||||F|||YACH^YACOUB MD^HAYAN^^^^~^^^^^^|||||||||${ASCII_13_CR}OBX|1|ST|100.4605^% RETIC|1|1.89|%|0.45-2.28||||F||||||${ASCII_13_CR}OBX|2|ST|100.4610^ABSOLUTE RETIC|1|0.06|X10^6|0.02-0.11||||F||||||${ASCII_13_CR}OBX|3|ST|100.46105^RETIC IMMATURE|1|0.20|RATIO|0.163-0.362||||F||||||${ASCII_13_CR}${ASCII_28_FIELD_SEPARATOR}${ASCII_13_CR}</stringProp>
+          <boolProp name="TCPSampler.closeConnection">false</boolProp>
+          <stringProp name="TCPSampler.EolByte">13</stringProp>
+          <stringProp name="ConfigTestElement.username"></stringProp>
+          <stringProp name="ConfigTestElement.password"></stringProp>
+        </TCPSampler>
+        <hashTree>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

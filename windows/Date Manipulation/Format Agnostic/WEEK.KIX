@@ -1,0 +1,18 @@
+; Week.kix,  Version 2.10
+; Display week number using Kix
+; Written by Rob van der Woude
+; http://www.robvanderwoude.com
+
+; Number of whole weeks this year (Sundays to Saturdays)
+; Add 1 to start with week 1 instead of 0
+; Thanks to Peter Cranen for this correction
+$FULLWEEKS = ( ( @YDAYNO - @WDAYNO ) / 7 ) + 1
+
+; Add 1 week if today isn't Saturday
+IF @WDAYNO < 6
+	$WEEKS = $FULLWEEKS + 1
+ENDIF
+
+; Display result
+? "Week " + $WEEKS
+?

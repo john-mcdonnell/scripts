@@ -1,0 +1,1 @@
+@PROMPT datetime $D $T

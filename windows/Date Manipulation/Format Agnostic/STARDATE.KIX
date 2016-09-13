@@ -1,0 +1,52 @@
+; Parse current time into hours, minutes and seconds
+$now  = @TIME
+$hour = SubStr( $now, 1, InStr( $now, ":" ) - 1 )
+$now  = SubStr( $now, InStr( $now, ":" ) + 1 )
+$min  = SubStr( $now, 1, InStr( $now, ":" ) - 1 )
+$sec  = SubStr( $now, InStr( $now, ":" ) + 1 )
+
+; Check if current year is a leap year
+$leapyear = 0;
+If  ( @YEAR / 4 ) * 4 = @YEAR
+	$leapyear = 1
+EndIf
+If  ( @YEAR / 100 ) * 4 = @YEAR
+	$leapyear = 0
+EndIf
+If  ( @YEAR / 400 ) * 4 = @YEAR
+	$leapyear = 1
+EndIf
+
+; Convert current date to stardate using the following procedure:
+; [1] Subtract 2323 from the current year
+; [2] Divide the number of days passed this year by the total number
+;     of days this year, multiply by 1000, round to nearest whole digit
+; [3] Multiply the hours by 60 and add the minutes, divide this number
+;     by 144, round this number
+; [4] StarDate is the concatenation of the steps 1,2,3 above
+; Step [1]
+$sY = @YEAR - 2323;
+; Step [2]
+$sX = 1000 * @YDAYNO / ( 365 + $leapyear )
+; Step [3]: 72 / 144 is added to use the truncation as rounding
+$sF = ( 72 + $min + ( 60 * $hour ) ) / 144
+; Display the result
+? "Stardate is now $sY$sX.$sF"
+
+; Done
+Exit 0
+
+
+:Syntax
+? "StarDate.kix,  Version 1.00"
+? "Convert current day and time to stardate$n"
+?
+? "Usage:  KIX32.EXE  STARDATE.KIX"
+?
+? "Based on an algorithm found on The StarTrek Gallery"
+? "http://www.trainerscity.com/startrek/"
+?
+? "Written by Rob van der Woude"
+? "http://www.robvanderwoude.com"
+?
+Exit 1

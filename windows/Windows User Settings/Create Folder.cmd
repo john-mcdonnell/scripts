@@ -1,0 +1,6 @@
+@ECHO OFF
+
+IF EXIST "%~1%" GOTO FOLDER_ALREADY_EXISTS
+ECHO Creating Destination Folder "%~1%"...
+MD "%~1%"
+:FOLDER_ALREADY_EXISTS

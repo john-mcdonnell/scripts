@@ -1,0 +1,17 @@
+###############################################################################################################
+#
+# DO NOT EDIT THIS COMMENT BLOCK. IT IS MAINTAINED AUTOMATICALLY ON CHECK-IN/CHECK-OUT BY MICROSOFT SOURCESAFE
+# 
+# $Revision: 3 $
+# $Date: 13/02/05 9:38 $
+# $Archive: /Liverpool Victoria/Staffware/Configuration/Lists/Utilities/Staffware List.lst $
+# 
+###############################################################################################################
+
+# For each report, create a new line that contains: -
+#		1. the report name
+#		2. the full path of report output filename
+#		3. the full path of report output archive folder
+# 
+#Sevice Level Aggrement Analysis Report Overview.xml,D:\SPM Report Export\Latest\Sevice Level Aggrement Analysis Report Overview.pdf,D:\SPM Report Export\Archive\
+Open Book SLA Reports.xml,D:\SPM Report Export\Latest\Open Book SLA Reports.pdf,D:\SPM Report Export\Archive\

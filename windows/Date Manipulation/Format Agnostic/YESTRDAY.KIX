@@ -1,0 +1,89 @@
+; Yesterday.kix,  Version 1.00
+; Display today's and yesterday's date in two formats
+; Written by Rob van der Woude
+; http://www.robvanderwoude.com
+
+; Today's date in YYYYMMDD format
+$SortDate = ( 10000 * @YEAR ) + ( 100 * @MONTHNO ) + @MDAYNO
+
+; Calculate yesterday's date
+$YesterD = @MDAYNO - 1
+$YesterM = @MONTHNO
+$YesterY = @YEAR
+
+; It gets tricky when today is the first day of the month
+IF $YesterD = 0
+	GOSUB RollMonth
+ENDIF
+
+; Yesterday's date in YYYYMMDD format
+$SortYest = ( 10000 * $YesterY ) + ( 100 * $YesterM ) + $YesterD
+
+; Display the results
+? "Format:     YYYYMMDD  (DD/MM/YYYY)"
+? "=================================="
+? "Today:      $SortDate  (@MDAYNO/@MONTHNO/@YEAR)"
+? "Yesterday:  $SortYest  ($YesterD/$YesterM/$YesterY)"
+?
+
+; Done
+EXIT
+
+
+; * * * * * * * *  Subroutines  * * * * * * * *
+
+
+; Subroutine to get yesterday's date if today is the first day of the month
+:RollMonth
+$YesterM = $YesterM - 1
+SELECT
+	CASE $YesterM = 0 ; Today is January 1st
+		$YesterD = 31
+		$YesterM = 12
+		$YesterY = @YEAR - 1
+	CASE $YesterM = 1 ; Today is February 1st
+		$YesterD = 30
+	CASE $YesterM = 2 ; Today is March 1st
+		$YesterD = 28
+		GOSUB LeapYear
+	CASE $YesterM = 3 ; Today is April 1st
+		$YesterD = 31
+	CASE $YesterM = 4 ; Today is May 1st
+		$YesterD = 30
+	CASE $YesterM = 5 ; Today is June 1st
+		$YesterD = 31
+	CASE $YesterM = 6 ; Today is July 1st
+		SET YesterD=30
+	CASE $YesterM = 7 ; Today is August 1st
+		$YesterD = 31
+	CASE $YesterM = 8 ; Today is September 1st
+		$YesterD = 31
+	CASE $YesterM = 9 ; Today is October 1st
+		$YesterD = 30
+	CASE $YesterM = 10 ; Today is November 1st
+		$YesterD = 31
+	CASE $YesterM = 11 ; Today is December 1st
+		$YesterD = 30
+ENDSELECT
+RETURN
+
+
+; Subroutine to calculate if this year is a leap year
+; (I am not sure if the century calculations are right)
+:LeapYear
+; If the year divisable by 4 then it is a leap year . . .
+$LeapYear = ( @YEAR / 4 ) * 4
+IF $LeapYear = @YEAR
+	$YesterD = 29
+ENDIF
+; . . . unless it is also divisible by 100 . . .
+$LeapYear = ( @YEAR / 100 ) * 100
+IF $LeapYear = @YEAR
+	$YesterD = 28
+ENDIF
+; . . . but when it is divisible by 400 it is a leap year again (?)
+$LeapYear = ( @YEAR / 400 ) * 400
+IF $LeapYear = @YEAR
+	$YesterD = 29
+ENDIF
+RETURN

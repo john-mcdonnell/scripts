@@ -1,0 +1,116 @@
+; Tomorrow.kix,  Version 1.00
+; Display today's and tomorrow's date in two formats
+; Written by Rob van der Woude
+; http://www.robvanderwoude.com
+
+; Today's date in YYYYMMDD format
+$SortDate = ( 10000 * @YEAR ) + ( 100 * @MONTHNO ) + @MDAYNO
+
+; Calculate tomorrow's date
+$TomorD = @MDAYNO + 1
+$TomorM = @MONTHNO
+$TomorY = @YEAR
+
+; It gets tricky when today is the last day of the month
+If @MDAYNO > 27
+	Select
+		Case @MONTHNO = 1 ; January
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 2
+			EndIf
+		Case @MONTHNO = 2 ; February
+			If @MDAYNO = 29
+				$TomorD = 1
+				$TomorM = 3
+			Else
+				If @MDAYNO = 28
+					$LeapYear = 0
+					If ( @YEAR / 4 ) * 4 = @YEAR
+						$LeapYear = 1
+					EndIf
+					If ( @YEAR / 100 ) * 100 = @YEAR
+						$LeapYear = 1
+					EndIf
+					If ( @YEAR / 400 ) * 400 = @YEAR
+						$LeapYear = 1
+					EndIf
+					If $LeapYear = 1
+						$TomorD = 1
+						$TomorM = 3
+					EndIf
+				EndIf
+			EndIf
+		Case @MONTHNO = 3 ; March
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 4
+			EndIf
+		Case @MONTHNO = 4 ; April
+			If @MDAYNO = 30
+				$TomorD = 1
+				$TomorM = 5
+			EndIf
+		Case @MONTHNO = 5 ; May
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 6
+			EndIf
+		Case @MONTHNO = 6 ; June
+			If @MDAYNO = 30
+				$TomorD = 1
+				$TomorM = 7
+			EndIf
+		Case @MONTHNO = 7 ; July
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 8
+			EndIf
+		Case @MONTHNO = 8 ; August
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 9
+			EndIf
+		Case @MONTHNO = 9 ; September
+			If @MDAYNO = 30
+				$TomorD = 1
+				$TomorM = 10
+			EndIf
+		Case @MONTHNO = 10 ; October
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 11
+			EndIf
+		Case @MONTHNO = 11 ; November
+			If @MDAYNO = 30
+				$TomorD = 1
+				$TomorM = 12
+			EndIf
+		Case @MONTHNO = 12 ; December
+			If @MDAYNO = 31
+				$TomorD = 1
+				$TomorM = 1
+				$TomorY = $TomorY + 1
+			EndIf
+	EndSelect
+EndIf
+
+; Tomorrow's date in YYYYMMDD format
+$SortTomor = ( 10000 * $TomorY ) + ( 100 * $TomorM ) + $TomorD
+
+If $TomorD < 10
+	$TomorD = "0" + $TomorD
+EndIf
+If $TomorM < 10
+	$TomorM = "0" + $TomorM
+EndIf
+
+; Display the results
+? "Format:     YYYYMMDD  (DD/MM/YYYY)"
+? "=================================="
+? "Today:      $SortDate  (@MDAYNO/@MONTHNO/@YEAR)"
+? "Tomorrow:   $SortTomor  ($TomorD/$TomorM/$TomorY)"
+?
+
+; Done
+Exit

@@ -1,0 +1,17 @@
+MySQL initially only allows connections from the localhost (127.0.0.1). We’ll need to remove that restriction if you wish to make it accessible to everyone on the internet. Open the file /etc/mysql/my.cnf
+gksudo gedit /etc/mysql/my.cnf
+
+Find the line bind-address = 127.0.0.1 and comment it out then save the file.
+
+MySQL comes with no root password as default. This is a huge security risk. You’ll need to set one. So that the local computer gets root access as well, you’ll need to set a password for that too. The local-machine-name is the name of the computer you’re working on.
+mysqladmin -u root -p password newpassword
+mysqladmin -h root@local-machine-name -u root -p password newpassword
+sudo /etc/init.d/mysql restart
+
+mysql --host=localhost --user=root -p [this will prompt for a password]
+show databases;
+create database newdb;
+grant all on newdb.* to scott@'%' identified by 'tiger';
+grant all on newdb.* to scott@localhost identified by 'tiger';
+use newdb;
+show tables;

@@ -1,0 +1,3 @@
+@ECHO OFF
+FOR /F "TOKENS=1* DELIMS= " %%A IN ('DATE/T') DO SET DATE=%%B
+ECHO It's %DATE% today

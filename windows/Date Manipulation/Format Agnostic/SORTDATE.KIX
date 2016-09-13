@@ -1,0 +1,7 @@
+; SortDate.kix,  Version 1.01
+; Displays date in YYYYMMDD
+; Written by Rob van der Woude
+; http://www.robvanderwoude.com
+
+$sdate = substr( @date, 1, 4 ) + substr( @date, 6, 2 ) + substr( @date, 9, 2 )
+? $sdate

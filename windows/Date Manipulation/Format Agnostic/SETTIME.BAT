@@ -1,0 +1,3 @@
+@ECHO OFF
+FOR /F "TOKENS=*" %%A IN ('TIME/T') DO SET TIME=%%A
+ECHO It's %TIME% now

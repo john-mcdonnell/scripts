@@ -1,0 +1,8 @@
+[DEFAULT]
+BASEURL=http://www.robvanderwoude.com/index.html
+[DOC#11#15]
+BASEURL=http://www.robvanderwoude.com/datetiment.html
+ORIGURL=robmain.html
+[InternetShortcut]
+URL=http://www.robvanderwoude.com/datetiment.html
+Modified=00C23A85DF77C5019D

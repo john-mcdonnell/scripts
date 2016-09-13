@@ -1,0 +1,75 @@
+If $Year = ""
+	$Year = @YEAR
+EndIf
+
+; Is the specified year valid?
+; Check if number and if within range
+If VarType($Year) = 1 OR VarType($Year) <> 3 OR $Year < 1752 OR $Year > 3000
+	GOTO Syntax
+EndIf
+
+; Calculate Easter Day using the instructions found at
+; Simon Kershaw's "KEEPING THE FEAST"
+; http://www.oremus.org/liturgy/etc/ktf/app/easter.html
+$G  = Mod( $Year, 19 ) + 1
+$S  = (( $Year - 1600 ) / 100 ) - (( $Year - 1600 ) / 400 )
+$L  = ((( $Year - 1400 ) / 100 ) * 8 ) / 25
+$P1 = Mod(( 30003 - 11 * $G + $S - $L ), 30)
+Select
+	Case $P1 = 28 AND $G > 11
+		$P = 28
+	Case $P1 = 29
+		$P = 28
+	Case 1
+		$P = $P1
+EndSelect
+$D  = Mod(( $Year + ( $Year / 4 ) - ( $Year / 100 ) + ( $Year / 400 )), 7 )
+$D1 = Mod(( 8 - $D ), 7 )
+$P2 = Mod(( 70003 + $P ), 7 )
+$X  = Mod(( 70004 - $D - $P ), 7 ) + 1
+$E  = $P + $X
+If $E < 11
+	$ED = $E + 21
+	$EM = "March"
+Else
+	$ED = $E - 10
+	$EM = "April"
+EndIf
+Select
+	Case $Year < @YEAR
+		$IS = "was"
+	Case $Year = @YEAR
+		$IS = "is"
+	Case 1
+		$IS = "will be"
+EndSelect
+
+; Display the result
+? "In $Year Easter Day $IS $EM $ED"
+?
+
+; MOD function divides $Op1 by $Op2 and returns the remainder
+Function Mod($Op1,$Op2)
+	$Mod = $Op1 - $Op2 * ( $Op1 / $Op2 )
+EndFunction
+
+; End of main program
+Exit 0
+
+
+:Syntax
+? "Easter.kix,  Version 1.00"
+? "Calculate the date of Easter Day for the specified year."
+?
+? "Usage:  KIX32  EASTER.KIX  [ $$YEAR=year ]"
+?
+? "Where:  year should be within the range of 1752 through 3000"
+?
+? "Written by Rob van der Woude"
+? "http://www.robvanderwoude.com"
+?
+? "Based on the instructions found at"
+? "Simon Kershaw's " + Chr(34) + "KEEPING THE FEAST" + Chr(34)
+? "http://www.oremus.org/liturgy/etc/ktf/app/easter.html"
+?
+Exit 1

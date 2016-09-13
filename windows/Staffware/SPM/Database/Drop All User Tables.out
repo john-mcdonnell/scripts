@@ -1,0 +1,565 @@
+1> 2> 3> 4> 5> 6> 7> 8> 9> 10> 11> 12> 13> 14> 15> 16> 17> 18> 19> 20> 21> 22> 23> 24> 25> 26> 27> 28> 29> 30> 31> 32> 33> 34> 35> 36> 37> 38> 39> 40> 41> 42> 43> 44> 45> 46> 47> 48> 49> 50> 51> 52> 53> 54> 55> 56> 57> 58> 59> 60> 61> 62> 63> 64> 65> 66> 67> 68> 69> 70> 71> 72> 73> 74> 75> 76> 77> 78> 79> 80> 81> 82> 83> 84> 85> 86> 87> 88> 89> 90> 91> 92> 93> 94> 95> 96> 97> 98> 99> 100> 101> 102> 103> 104> 105> 106> 107> 108> 109> 110> 111> 112> 113> 114> 115> 116> 117> 118> 119> 120> 121> 122> 123> 124> 125> 126> 127> 128> 129> 130> 131> 132> 133> 134> 135> 136> 137> 138> 139> 140> 141> 142> 143> 144> 145> 146> 147> 148> 149> 150> 151> 152> 153> 154> 155> 156> 157> 158> 159> 160> 161> 162> 163> 164> 165> 166> 167> 168> 169> 170> 171> 172> 173> 174> 175> 176> 177> 178> 179> 180> 181> 182> 183> 184> 185> 186> 187> 188> 189> 190> 191> 192> 193> 194> 195> 196> 197> 198> 199> 200> 201> 202> 203> 204> 205> 206> 207> 208> 209> 210> 211> 212> 213> 214> 215> 216> 217> 218> 219> 220> 221> 222> 223> 224> 225> 226> 227> 228> 229> 230> 231> 232> 233> 234> 235> 236> 237> 238> 239> 240> 241> 242> 243> 244> 245> 246> 247> 248> 249> 250> 251> 252> 253> 254> 255> 256> 257> 258> 259> 260> 261> 262> 263> 264> 265> 266> 267> 268> 269> 270> 271> 272> 273> 274> 275> 276> 277> 278> 279> 280> 281> 282> 283> 284> 285> Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 1
+Cannot drop the table 'spm.APROCNAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 2
+Cannot drop the table 'spm.CACHE_KI_TBL_VAL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 3
+Cannot drop the table 'spm.CPI_ACTIONS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 4
+Cannot drop the table 'spm.CPI_RECIPIENTS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 5
+Cannot drop the table 'spm.CPRS_REL_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 6
+Cannot drop the table 'spm.DAYTABLE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 7
+Cannot drop the table 'spm.DAYTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 8
+Cannot drop the table 'spm.DBVERSIONNUMBER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 9
+Cannot drop the table 'spm.ENDDATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 10
+Cannot drop the table 'spm.EPK_CACHE_TBL_VAL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 11
+Cannot drop the table 'spm.EPK_HIER_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 12
+Cannot drop the table 'spm.EPK_IMPORT_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 13
+Cannot drop the table 'spm.EPK_KEY_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 14
+Cannot drop the table 'spm.FC_TRANSFORMATION_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 15
+Cannot drop the table 'spm.FC_WORKING_HOURS_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 16
+Cannot drop the table 'spm.FCUBE0', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 17
+Cannot drop the table 'spm.FCUBE1', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 18
+Cannot drop the table 'spm.FCUBE2', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 19
+Cannot drop the table 'spm.FCUBE3', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 20
+Cannot drop the table 'spm.FTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 21
+Cannot drop the table 'spm.LNAMES', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 22
+Cannot drop the table 'spm.LOC_ATTR', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 23
+Cannot drop the table 'spm.LOC_TREE_ITEM_INFO', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 24
+Cannot drop the table 'spm.LOC_TREE_ITEM_NAMES', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 25
+Cannot drop the table 'spm.LRESULT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 26
+Cannot drop the table 'spm.MERGE_KEY_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 27
+Cannot drop the table 'spm.MSSQLFUNCTION', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 28
+Cannot drop the table 'spm.ORGUNIT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 29
+Cannot drop the table 'spm.OUTCOME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 30
+Cannot drop the table 'spm.PROCESSTYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 31
+Cannot drop the table 'spm.PROCESSTYPEDEF', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 32
+Cannot drop the table 'spm.PRODUCT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 33
+Cannot drop the table 'spm.PT_METASCHEMA', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 34
+Cannot drop the table 'spm.REPR_OBJ_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 35
+Cannot drop the table 'spm.SCANDATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 36
+Cannot drop the table 'spm.SEQ_APROCNAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 37
+Cannot drop the table 'spm.SEQ_CACHE_KI_TBL_KEY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 38
+Cannot drop the table 'spm.SEQ_CASESTATUS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 39
+Cannot drop the table 'spm.SEQ_DATAIMPORT_LOG_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 40
+Cannot drop the table 'spm.SEQ_DAYTABLE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 41
+Cannot drop the table 'spm.SEQ_DAYTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 42
+Cannot drop the table 'spm.SEQ_DEL_MERGEKEYS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 43
+Cannot drop the table 'spm.SEQ_ENDDATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 44
+Cannot drop the table 'spm.SEQ_EPK_CACHE_TBL_KEY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 45
+Cannot drop the table 'spm.SEQ_EPK_KEY_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 46
+Cannot drop the table 'spm.SEQ_FC_DATE_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 47
+Cannot drop the table 'spm.SEQ_FTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 48
+Cannot drop the table 'spm.SEQ_IDX_CREATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 49
+Cannot drop the table 'spm.SEQ_LNAMES', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 50
+Cannot drop the table 'spm.SEQ_LRESULT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 51
+Cannot drop the table 'spm.SEQ_MERGE_KEY_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 52
+Cannot drop the table 'spm.SEQ_MERGER_LOG_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 53
+Cannot drop the table 'spm.SEQ_MSSQLFUNCTION', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 54
+Cannot drop the table 'spm.SEQ_ORGUNIT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 55
+Cannot drop the table 'spm.SEQ_OUTCOME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 56
+Cannot drop the table 'spm.SEQ_PROCESSTYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 57
+Cannot drop the table 'spm.SEQ_PRODUCT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 58
+Cannot drop the table 'spm.SEQ_REPR_KEY_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 59
+Cannot drop the table 'spm.SEQ_SCANDATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 60
+Cannot drop the table 'spm.SEQ_SFEPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 61
+Cannot drop the table 'spm.SEQ_SFK_EPK_0_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 62
+Cannot drop the table 'spm.SEQ_SFK_SFEPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 63
+Cannot drop the table 'spm.SEQ_STEPUSER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 64
+Cannot drop the table 'spm.SEQ_SUB_PROC', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 65
+Cannot drop the table 'spm.SEQ_TARGET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 66
+Cannot drop the table 'spm.SEQ_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 67
+Cannot drop the table 'spm.SEQ_TREE_ITEMS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 68
+Cannot drop the table 'spm.SEQ_UA_RIGHTS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 69
+Cannot drop the table 'spm.SFK_EPK_0_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 70
+Cannot drop the table 'spm.SFK_SFEPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 71
+Cannot drop the table 'spm.STEPUSER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 72
+Cannot drop the table 'spm.SUB_PROC', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 73
+Cannot drop the table 'spm.TARGET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 74
+Cannot drop the table 'spm.TARGET_RECIPIENTS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 75
+Cannot drop the table 'spm.TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 76
+Cannot drop the table 'spm.UA_RIGHTS_TO_GROUPS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 77
+Cannot drop the table 'spm.UA_RIGHTS_TO_USERS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 78
+Cannot drop the table 'spm.UA_USER_TO_GROUPS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 79
+Cannot drop the table 'spm.UA_USERS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 80
+Cannot drop the table 'spm.USERGROUPDEF', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 81
+Cannot drop the table 'spm.XML_CONFIGS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 82
+Cannot drop the table 'spm.XML_CPI_MESSAGES', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 83
+Cannot drop the table 'spm.XML_TREE_ITEMS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 84
+Cannot drop the table 'spm.ATTR_INFO', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 85
+Cannot drop the table 'spm.CACHE_KI_TBL_KEY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 86
+Cannot drop the table 'spm.CASESTATUS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 87
+Cannot drop the table 'spm.CPI_MESSAGES', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 88
+Cannot drop the table 'spm.DEL_MERGEKEYS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 89
+Cannot drop the table 'spm.EPK_CACHE_TBL_KEY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 90
+Cannot drop the table 'spm.FC_DATE_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 91
+Cannot drop the table 'spm.LOC_LANGS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 92
+Cannot drop the table 'spm.REPR_KEY_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 93
+Cannot drop the table 'spm.SFEPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 94
+Cannot drop the table 'spm.TREE_ITEMS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 95
+Cannot drop the table 'spm.UA_GROUPS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 96
+Cannot drop the table 'spm.UA_RIGHTS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 97
+Cannot drop the table 'spm.SEQ_TARGET_DEF', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 98
+Cannot drop the table 'spm.TARGET_DEF', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 99
+Cannot drop the table 'spm.CUBE0', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 100
+Cannot drop the table 'spm.CUBE1', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 101
+Cannot drop the table 'spm.CUBE2', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 102
+Cannot drop the table 'spm.CUBE3', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 103
+Cannot drop the table 'spm.EPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 104
+Cannot drop the table 'spm.SEQ_EPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 105
+Cannot drop the table 'spm.DATAIMPORT_LOG_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 106
+Cannot drop the table 'spm.MERGER_LOG_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 107
+Cannot drop the table 'spm.SUBST_EPK_RELATION_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 108
+Cannot drop the table 'spm.SEQ_SW_AUTONOTE_COPY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 109
+Cannot drop the table 'spm.SEQ_SW_CASEREF', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 110
+Cannot drop the table 'spm.SEQ_SW_L_POLICY_DESC', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 111
+Cannot drop the table 'spm.SEQ_SW_POLICY_DESC', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 112
+Cannot drop the table 'spm.SEQ_SW_POLICY_ID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 113
+Cannot drop the table 'spm.SEQ_SW_QC_USER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 114
+Cannot drop the table 'spm.SW_AUTONOTE_COPY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 115
+Cannot drop the table 'spm.SW_CASEREF', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 116
+Cannot drop the table 'spm.SW_L_POLICY_DESC', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 117
+Cannot drop the table 'spm.SW_POLICY_DESC', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 118
+Cannot drop the table 'spm.SW_POLICY_ID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 119
+Cannot drop the table 'spm.SW_QC_USER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 120
+Cannot drop the table 'spm.EPK_TBL', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 121
+Cannot drop the table 'spm.SEQ_SW_B_AGENCYID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 122
+Cannot drop the table 'spm.SEQ_SW_B_AGENCYNAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 123
+Cannot drop the table 'spm.SEQ_SW_B_DOB', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 124
+Cannot drop the table 'spm.SEQ_SW_B_FORENAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 125
+Cannot drop the table 'spm.SEQ_SW_B_IFA_KEY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 126
+Cannot drop the table 'spm.SEQ_SW_B_MEMBER_ID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 127
+Cannot drop the table 'spm.SEQ_SW_B_POLICY_ID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 128
+Cannot drop the table 'spm.SEQ_SW_B_POLICY_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 129
+Cannot drop the table 'spm.SEQ_SW_B_POSTCODE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 130
+Cannot drop the table 'spm.SEQ_SW_B_SURNAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 131
+Cannot drop the table 'spm.SW_B_AGENCYID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 132
+Cannot drop the table 'spm.SW_B_AGENCYNAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 133
+Cannot drop the table 'spm.SW_B_DOB', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 134
+Cannot drop the table 'spm.SW_B_FORENAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 135
+Cannot drop the table 'spm.SW_B_IFA_KEY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 136
+Cannot drop the table 'spm.SW_B_MEMBER_ID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 137
+Cannot drop the table 'spm.SW_B_POLICY_ID', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 138
+Cannot drop the table 'spm.SW_B_POLICY_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 139
+Cannot drop the table 'spm.SW_B_POSTCODE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 140
+Cannot drop the table 'spm.SW_B_SURNAME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 141
+Cannot drop the table 'spm.ACTUAL_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 142
+Cannot drop the table 'spm.NUMBER_OF_KEEPS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 143
+Cannot drop the table 'spm.SEQ_ACTUAL_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 144
+Cannot drop the table 'spm.SEQ_NUMBER_OF_KEEPS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 145
+Cannot drop the table 'spm.SEQ_START_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 146
+Cannot drop the table 'spm.START_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 147
+Cannot drop the table 'spm.FSTARTTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 148
+Cannot drop the table 'spm.SEQ_FSTARTTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 149
+Cannot drop the table 'spm.FENDTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 150
+Cannot drop the table 'spm.SEQ_FENDTIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 151
+Cannot drop the table 'spm.ACTIVITY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 152
+Cannot drop the table 'spm.SEQ_ACTIVITY', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 153
+Cannot drop the table 'spm.SEQ_SW_L_PROCESS_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 154
+Cannot drop the table 'spm.SW_L_PROCESS_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 155
+Cannot drop the table 'spm.SEQ_SW_FUNCTON_END_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 156
+Cannot drop the table 'spm.SEQ_SW_FUNCTON_START_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 157
+Cannot drop the table 'spm.SW_FUNCTON_END_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 158
+Cannot drop the table 'spm.SW_FUNCTON_START_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 159
+Cannot drop the table 'spm.SEQ_SW_SCAN_DATE_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 160
+Cannot drop the table 'spm.SW_SCAN_DATE_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 161
+Cannot drop the table 'spm.OBJNAME_INTERN', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 162
+Cannot drop the table 'spm.SEQ_OBJNAME_INTERN', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 163
+Cannot drop the table 'spm.APPLICATIONCOMPLETE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 164
+Cannot drop the table 'spm.SEQ_APPLICATIONCOMPLETE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 165
+Cannot drop the table 'spm.SEQ_SW_APPLICATION_COMPLETE_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 166
+Cannot drop the table 'spm.SW_APPLICATION_COMPLETE_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 167
+Cannot drop the table 'spm.SEQ_SW_IS_KEEP_STEP', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 168
+Cannot drop the table 'spm.SW_IS_KEEP_STEP', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 169
+Cannot drop the table 'spm.SEQ_SW_FBZ_ABS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 170
+Cannot drop the table 'spm.SW_FBZ_ABS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 171
+Cannot drop the table 'spm.POLSERVCBREORDER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 172
+Cannot drop the table 'spm.SEQ_POLSERVCBREORDER', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 173
+Cannot drop the table 'spm.SEQ_SW_POL_SERV_OB_REORDER_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 174
+Cannot drop the table 'spm.SW_POL_SERV_OB_REORDER_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 175
+Cannot drop the table 'spm.SEQ_SW_FBZWK_ABS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 176
+Cannot drop the table 'spm.SW_FBZWK_ABS', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 177
+Cannot drop the table 'spm.SEQ_SW_B_WORKTYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 178
+Cannot drop the table 'spm.SW_B_WORKTYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 179
+Cannot drop the table 'spm.CLOSEBUSNWD', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 180
+Cannot drop the table 'spm.SEQ_CLOSEBUSNWD', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 181
+Cannot drop the table 'spm.SEQ_SW_CLOSE_BUS_NWD_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 183
+Cannot drop the table 'spm.SEQ_SW_NWD', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 184
+Cannot drop the table 'spm.SW_CLOSE_BUS_NWD_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 185
+Cannot drop the table 'spm.SW_NWD', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 186
+Cannot drop the table 'spm.SEQ_SW_B_RECD_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 187
+Cannot drop the table 'spm.SEQ_SW_B_RECD_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 188
+Cannot drop the table 'spm.SEQ_SW_CMP_ACK_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 189
+Cannot drop the table 'spm.SEQ_SW_CMP_ACK_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 190
+Cannot drop the table 'spm.SEQ_SW_CMP_COMP_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 191
+Cannot drop the table 'spm.SEQ_SW_CMP_COMP_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 192
+Cannot drop the table 'spm.SEQ_SW_CMP_REG_OR_NONREG', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 193
+Cannot drop the table 'spm.SEQ_SW_CMP_SENT_SILD_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 194
+Cannot drop the table 'spm.SEQ_SW_CMP_SENT_SILD_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 195
+Cannot drop the table 'spm.SEQ_SW_CMP_VERBAL_OR_WRITTEN', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 196
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_COM_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 197
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_COM_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 198
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_FIR_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 199
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_FIR_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 200
+Cannot drop the table 'spm.SW_B_RECD_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 201
+Cannot drop the table 'spm.SW_B_RECD_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 202
+Cannot drop the table 'spm.SW_CMP_ACK_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 203
+Cannot drop the table 'spm.SW_CMP_ACK_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 204
+Cannot drop the table 'spm.SW_CMP_COMP_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 205
+Cannot drop the table 'spm.SW_CMP_COMP_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 206
+Cannot drop the table 'spm.SW_CMP_REG_OR_NONREG', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 207
+Cannot drop the table 'spm.SW_CMP_SENT_SILD_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 208
+Cannot drop the table 'spm.SW_CMP_SENT_SILD_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 209
+Cannot drop the table 'spm.SW_CMP_VERBAL_OR_WRITTEN', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 210
+Cannot drop the table 'spm.SW_STP_I_INT_COM_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 211
+Cannot drop the table 'spm.SW_STP_I_INT_COM_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 212
+Cannot drop the table 'spm.SW_STP_I_INT_FIR_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 213
+Cannot drop the table 'spm.SW_STP_I_INT_FIR_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 214
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_FIR_S_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 215
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_FIR_S_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 216
+Cannot drop the table 'spm.SW_STP_I_INT_FIR_S_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 218
+Cannot drop the table 'spm.SW_STP_I_INT_FIR_S_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 219
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_FIR_C_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 220
+Cannot drop the table 'spm.SEQ_SW_STP_I_INT_FIR_C_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 221
+Cannot drop the table 'spm.SW_STP_I_INT_FIR_C_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 222
+Cannot drop the table 'spm.SW_STP_I_INT_FIR_C_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 223
+Cannot drop the table 'spm.SEQ_SW_L_STP_INIT_TI', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 224
+Cannot drop the table 'spm.SW_L_STP_INIT_TI', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 225
+Cannot drop the table 'spm.SEQ_SW_CMP_L_CMPLNT_OUTCOM', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 226
+Cannot drop the table 'spm.SEQ_SW_CMP_L_CMPLNT_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 227
+Cannot drop the table 'spm.SEQ_SW_CMP_L_COMPLAINTAREA', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 228
+Cannot drop the table 'spm.SEQ_SW_CMP_L_NWD_COMPLAINT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 229
+Cannot drop the table 'spm.SEQ_SW_END_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 230
+Cannot drop the table 'spm.SEQ_SW_L_POLICY_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 231
+Cannot drop the table 'spm.SEQ_SW_L_STP_EXPE_TI', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 232
+Cannot drop the table 'spm.SEQ_SW_START_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 233
+Cannot drop the table 'spm.SEQ_SW_STP_E_INT_COM_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 234
+Cannot drop the table 'spm.SEQ_SW_STP_E_INT_COM_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 235
+Cannot drop the table 'spm.SEQ_SW_STP_E_INT_FIR_C_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 236
+Cannot drop the table 'spm.SEQ_SW_STP_E_INT_FIR_C_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 237
+Cannot drop the table 'spm.SEQ_SW_STP_E_INT_FIR_S_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 238
+Cannot drop the table 'spm.SEQ_SW_STP_E_INT_FIR_S_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 239
+Cannot drop the table 'spm.SW_CMP_L_CMPLNT_OUTCOM', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 240
+Cannot drop the table 'spm.SW_CMP_L_CMPLNT_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 241
+Cannot drop the table 'spm.SW_CMP_L_COMPLAINTAREA', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 242
+Cannot drop the table 'spm.SW_CMP_L_NWD_COMPLAINT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 243
+Cannot drop the table 'spm.SW_END_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 244
+Cannot drop the table 'spm.SW_L_POLICY_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 245
+Cannot drop the table 'spm.SW_L_STP_EXPE_TI', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 246
+Cannot drop the table 'spm.SW_START_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 247
+Cannot drop the table 'spm.SW_STP_E_INT_COM_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 248
+Cannot drop the table 'spm.SW_STP_E_INT_COM_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 249
+Cannot drop the table 'spm.SW_STP_E_INT_FIR_C_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 250
+Cannot drop the table 'spm.SW_STP_E_INT_FIR_C_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 251
+Cannot drop the table 'spm.SW_STP_E_INT_FIR_S_DATETIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 252
+Cannot drop the table 'spm.SW_STP_E_INT_FIR_S_DATETIME_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 253
+Cannot drop the table 'spm.SEQ_SW_FUNCTION_END_DATE_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 254
+Cannot drop the table 'spm.SEQ_SW_FUNCTION_END_TIME_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 255
+Cannot drop the table 'spm.SEQ_SW_FUNCTION_START_DATE_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 256
+Cannot drop the table 'spm.SEQ_SW_FUNCTION_START_TIME_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 257
+Cannot drop the table 'spm.SW_FUNCTION_END_DATE_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 258
+Cannot drop the table 'spm.SW_FUNCTION_END_TIME_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 259
+Cannot drop the table 'spm.SW_FUNCTION_START_DATE_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 260
+Cannot drop the table 'spm.SW_FUNCTION_START_TIME_SPT', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 261
+Cannot drop the table 'spm.SEQ_SW_IS_DEL_ADJ_REQ', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 262
+Cannot drop the table 'spm.SW_IS_DEL_ADJ_REQ', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 263
+Cannot drop the table 'spm.CBDEATHCLAIMCOMPLETE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 264
+Cannot drop the table 'spm.SEQ_CBDEATHCLAIMCOMPLETE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 265
+Cannot drop the table 'spm.SEQ_SW_CB_DEATH_CLAIM_COMPLETE_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 266
+Cannot drop the table 'spm.SW_CB_DEATH_CLAIM_COMPLETE_T', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 267
+Cannot drop the table 'spm.SW_B_CB_WORK_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 268
+Cannot drop the table 'spm.SEQ_SW_B_CB_WORK_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 269
+Cannot drop the table 'spm.L_ORIG_RET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 270
+Cannot drop the table 'spm.SEQ_L_ORIG_RET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 271
+Cannot drop the table 'spm.SEQ_SW_B_CLOSEDBOOK', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 272
+Cannot drop the table 'spm.SEQ_SW_L_SERV_SUB_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 273
+Cannot drop the table 'spm.SW_B_CLOSEDBOOK', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 274
+Cannot drop the table 'spm.SW_L_SERV_SUB_TYPE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 275
+Cannot drop the table 'spm.PDEATHCLAIMCOMP', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 276
+Cannot drop the table 'spm.SEQ_PDEATHCLAIMCOMP', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 277
+Cannot drop the table 'spm.SEQ_SW_P_DEATH_CLAIM_COMP_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 278
+Cannot drop the table 'spm.SW_P_DEATH_CLAIM_COMP_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 279
+Cannot drop the table 'spm.SEQ_SW_L_ORIG_RET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 280
+Cannot drop the table 'spm.SEQ_SW_TARGET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 281
+Cannot drop the table 'spm.SW_L_ORIG_RET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 282
+Cannot drop the table 'spm.SW_TARGET_DATE', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 283
+Cannot drop the table 'spm.SEQ_SW_P_DE_CL_COMP_TIME', because it does not exist in the system catalog.
+Msg 3701, Level 11, State 5, Server W2HZGBJS01, Line 284
+Cannot drop the table 'spm.SW_P_DE_CL_COMP_TIME', because it does not exist in the system catalog.
+1> 

@@ -1,0 +1,7 @@
+; SortTime.kix,  Version 1.02
+; Displays time in HHMMSS
+; Written by Rob van der Woude
+; http://www.robvanderwoude.com
+
+$stime = substr( @time, 1, 2 ) + substr( @time, 4, 2 ) + substr( @time, 7, 2 )
+? $stime
