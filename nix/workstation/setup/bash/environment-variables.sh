@@ -1,0 +1,5 @@
+# Not bash or zsh?
+[ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ] || return 0
+
+export JAVA_HOME="/opt/java/default/"
+export PATH=$JAVA_HOME/bin/:$PATH

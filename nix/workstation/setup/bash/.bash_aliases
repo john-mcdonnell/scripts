@@ -1,0 +1,1 @@
+alias scripts='cd ~/scripts'
