@@ -7,8 +7,8 @@ if [[ "$SCRIPT_FOLDER" == "" ]] || [[ "$SCRIPT_FOLDER" == "." ]] || [[ -z "$SCRI
   SCRIPT_FOLDER=$(pwd)
 fi
 
-#"$SCRIPT_FOLDER"/apt/upgrade.sh
-#"$SCRIPT_FOLDER"/apt/install.sh
+"$SCRIPT_FOLDER"/apt/upgrade.sh
+"$SCRIPT_FOLDER"/apt/install.sh
 
 addToBashRC() {
   local bashRCFile=~/.bashrc
