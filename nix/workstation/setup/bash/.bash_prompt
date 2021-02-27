@@ -1,0 +1,87 @@
+# store colors
+MAGENTA="\[\033[0;35m\]"
+YELLOW="\[\033[038;5;154m\]"
+BLUE="\[\033[038;5;33m\]"
+LIGHT_GRAY="\[\033[0;37m\]"
+CYAN="\[\033[038;5;51m\]"
+GREEN="\[\033[00;32m\]"
+RED="\[\033[38;5;160m\]"
+VIOLET="\[\033[01;35m\]"
+GREY="\[\033[038;5;234m\]"
+BROWN="\[\033[038;5;130m\]"
+ORANGE="\[\033[038;5;208m\]"
+
+#Build PS1
+function color_my_prompt {
+ local __braceL="$BLUE["
+ local __braceR="$BLUE]"
+ local __cur_location="\W"
+ local __location="\w"
+ local __git_branch=
+ local __prompt_tail="$BLUE➜"
+ local __user_input_color="$LIGHT_GRAY"
+ local __user="$BLUE[$YELLOW \u@\h $BLUE]"
+ local __dollar="$YELLOW$"
+ local _ip_add="$BLUE[$YELLOW $(ip addr | grep -w inet | gawk '{if (NR==2) {$0=$2; gsub(/\//," "); print $1;}}')$BLUE ]"
+
+ # $BLUE\n$BLUE └─ "
+# colour branch name depending on state
+ # if repository is dirty
+
+# local __filesCheck="$(/bin/ls -m | /usr/bin/wc -l | /bin/sed 's: ::g')"
+#  local __minusNo="1"
+# local __filesCalc="$(($__filesCheck-$__minusNo))"
+# local __filesReal="$__braceL $RED\$__filesCheck files $__braceR"
+
+#  if [ "$(git rev-parse --is-inside-work-tree 2>/dev/null)" = "true" ]; then
+#    __git_branch=$(git symbolic-ref --quiet --short HEAD || git rev-parse --short HEAD)
+ #  fi
+ if [[ "$(__git_ps1 "%s")" =~ "*" ]]; then     # if repository is dirty
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+     files="$__filesReal"
+     __git_branch_color="$BROWN"
+ elif [[ "$(__git_ps1 "%s")" =~ "+" ]]; then   # if there are staged files
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+     files="$__filesReal"
+     __git_branch_color="$CYAN"
+ elif [[ "$(__git_ps1 "%s")" =~ "Ŧ" ]]; then   # if there are only untracked files
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+     files="$__filesReal"
+     __git_branch_color="$RED"
+ elif [[ "$(__git_ps1 "%s")" =~ "Š" ]]; then   # if there is something stashed
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+     files="$__filesReal"
+     __git_branch_color="$GREEN"
+ elif [[ "$(__git_ps1 "%s")" =~ "↩" ]]; then   # if behind
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+     files="$__filesReal"
+     __git_branch_color="$ORANGE"
+ elif [[ "$(__git_ps1 "%s")" =~ "↪" ]]; then   # if there are commiting files
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+       files="$__filesReal"
+     __git_branch_color="$MAGENTA"
+ elif [[ "$(__git_ps1 "%s")" =~ "✔" ]]; then   # if it is equal to repo
+     __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
+     files="$__filesReal"
+     __git_branch_color="$YELLOW"
+ fi
+ # Compile the PS1
+
+PS1="$__user$_ip_add$__braceL $YELLOW$__cur_location $__braceR $__git_branch$__git_branch_color$__returnLine$__prompt_tail$__user_input_color "
+#export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\]\w\[\033[00m\]\$(__git_ps1)\[\033[00m\] $ "
+}
+# configure PROMPT_COMMAND which is executed each time before PS1
+
+# if .git-prompt.sh exists, set options and execute it
+if [ -f /usr/lib/git-core/git-sh-prompt ]; then
+  GIT_PS1_SHOWDIRTYSTATE=true
+  GIT_PS1_SHOWSTASHSTATE=true
+  GIT_PS1_SHOWUNTRACKEDFILES=true
+  GIT_PS1_SHOWUPSTREAM="auto"
+  GIT_PS1_HIDE_IF_PWD_IGNORED=true
+  GIT_PS1_SHOWCOLORHINTS=true
+  GIT_PROMPT_SHOW_UNTRACKED_FILES=normal # can be no, normal or all; determines counting of untracked files
+  . /usr/lib/git-core/git-sh-prompt
+fi
+
+export PROMPT_COMMAND=color_my_prompt

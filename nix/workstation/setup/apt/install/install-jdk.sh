@@ -15,4 +15,4 @@ curl --request GET -sL \
 
 sudo mkdir -p "$JAVA_FOLDER"
 sudo tar -xvf "$TEMP_FILE" --directory="$JAVA_FOLDER"
-sudo mv "$JAVA_FOLDER/$JAVA_VERSION" "$JAVA_FOLDER/default"
+sudo rsync --archive --force --delete "$JAVA_FOLDER/$JAVA_VERSION" "$JAVA_FOLDER/default"
