@@ -8,5 +8,5 @@ if [[ "$SCRIPT_FOLDER" == "" ]] || [[ "$SCRIPT_FOLDER" == "." ]] || [[ -z "$SCRI
 fi
 
 "$SCRIPT_FOLDER"/install-base-utilities.sh
-#"$SCRIPT_FOLDER"/install-jdk.sh
+"$SCRIPT_FOLDER"/install-jdk.sh
 "$SCRIPT_FOLDER"/install-git.sh
