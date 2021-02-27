@@ -53,7 +53,7 @@ function color_my_prompt {
      __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
      files="$__filesReal"
      __git_branch_color="$RED"
- elif [[ "$(__git_ps1 "%s")" =~ "Š" ]]; then   # if there is something stashed
+ elif [[ "$(__git_ps1 "%s")" =~ "=" ]]; then   # if there is something stashed
      __git_branch="$__braceL $__git_branch_color$(__git_ps1 "%s") $__braceR"
      files="$__filesReal"
      __git_branch_color="$GREEN"
