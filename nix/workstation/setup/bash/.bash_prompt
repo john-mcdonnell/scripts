@@ -72,7 +72,8 @@ function color_my_prompt {
  fi
  # Compile the PS1
 
-echo XX:$__git_branch
+echo __git_branch:$__git_branch
+echo __git_ps1:$__git_ps1
 export PS1="$__user$__braceL$YELLOW$__cur_location$__braceR $__git_branch$__git_branch_color$__returnLine$__prompt_tail$__user_input_color "
 #export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\]\w\[\033[00m\]\$(__git_ps1)\[\033[00m\] $ "
 }
