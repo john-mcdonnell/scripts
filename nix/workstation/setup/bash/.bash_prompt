@@ -85,7 +85,7 @@ if [ -f /usr/lib/git-core/git-sh-prompt ]; then
   GIT_PS1_SHOWSTASHSTATE=true
   GIT_PS1_SHOWUNTRACKEDFILES=true
   GIT_PS1_SHOWUPSTREAM="auto"
-  GIT_PS1_HIDE_IF_PWD_IGNORED=true
+  GIT_PS1_HIDE_IF_PWD_IGNORED=false
   GIT_PS1_SHOWCOLORHINTS=true
   GIT_PROMPT_SHOW_UNTRACKED_FILES=normal # can be no, normal or all; determines counting of untracked files
   . /usr/lib/git-core/git-sh-prompt
