@@ -89,16 +89,3 @@ if [ -f /usr/lib/git-core/git-sh-prompt ]; then
 fi
 
 export PROMPT_COMMAND=color_my_prompt
-
-echo __git_branch:$(__git_ps1 "%s")
-GIT_CHANGES=$(__git_ps1 "%s")
-if [ "$GIT_CHANGES" == "" ]; then
-  NM="\[\033[0;1;37m\]"   #means no background and white lines
-  HI="\[\033[0;37m\]"     #change this for letter colors
-  SI="\[\033[38;5;202m\]" #this is for the current directory
-  GI="\[\033[38;5;220m\]" # Git branch color
-  NI="\[\033[0;1;30m\]"   #for @ symbol
-  IN="\[\033[0m\]"
-
-  export PS1="${NM}[${HI}\u${NI}@${HI}\h ${SI}\w\$(__git_ps1 ' ${NM}(${GI}%s${NM})')${NM}]: ${IN}"
-fi
