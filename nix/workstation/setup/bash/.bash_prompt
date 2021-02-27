@@ -13,16 +13,21 @@ ORANGE="\[\033[038;5;208m\]"
 
 #Build PS1
 function color_my_prompt {
+ if [[ "$PWD" == "$HOME" ]]; then
+  local __folder_name="~/"
+ else
+  local __folder_name="$PWD"
+ fi
+
  local __braceL="$BLUE["
  local __braceR="$BLUE]"
- local __cur_location="\W"
+ local __cur_location="$__folder_name"
  local __location="\w"
  local __git_branch=
  local __prompt_tail="$BLUE➜"
  local __user_input_color="$LIGHT_GRAY"
- local __user="$BLUE[$YELLOW \u@\h $BLUE]"
+ local __user="$BLUE[$YELLOW\u$BLUE]"
  local __dollar="$YELLOW$"
- local _ip_add="$BLUE[$YELLOW $(ip addr | grep -w inet | gawk '{if (NR==2) {$0=$2; gsub(/\//," "); print $1;}}')$BLUE ]"
 
  # $BLUE\n$BLUE └─ "
 # colour branch name depending on state
@@ -67,7 +72,7 @@ function color_my_prompt {
  fi
  # Compile the PS1
 
-PS1="$__user$_ip_add$__braceL $YELLOW$__cur_location $__braceR $__git_branch$__git_branch_color$__returnLine$__prompt_tail$__user_input_color "
+PS1="$__user$__braceL$YELLOW$__cur_location$__braceR $__git_branch$__git_branch_color$__returnLine$__prompt_tail$__user_input_color "
 #export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\]\w\[\033[00m\]\$(__git_ps1)\[\033[00m\] $ "
 }
 # configure PROMPT_COMMAND which is executed each time before PS1
