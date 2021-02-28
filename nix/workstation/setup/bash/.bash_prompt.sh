@@ -1,4 +1,3 @@
-# store colors
 MAGENTA="\[\033[0;35m\]"
 YELLOW="\[\033[038;5;154m\]"
 BLUE="\[\033[038;5;33m\]"
