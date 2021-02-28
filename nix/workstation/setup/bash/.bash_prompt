@@ -10,6 +10,7 @@ VIOLET="\[\033[01;35m\]"
 GREY="\[\033[038;5;234m\]"
 BROWN="\[\033[038;5;130m\]"
 ORANGE="\[\033[038;5;208m\]"
+WHITE="\[\033[00m\]"
 
 #Build PS1
 function color_my_prompt {
@@ -72,7 +73,7 @@ function color_my_prompt {
  fi
  # Compile the PS1
 
-PS1="${debian_chroot:+($debian_chroot)}\u:\[\033[01;34m\]\w\[\033[00m\]$__git_branch_color\$(__git_ps1)\[\033[00m\] $ "
+PS1="${debian_chroot:+($debian_chroot)}\u:$BLUE\w$__git_branch_color\$(__git_ps1)$WHITE $ "
 }
 # configure PROMPT_COMMAND which is executed each time before PS1
 
