@@ -7,5 +7,6 @@ if [[ "$SCRIPT_FOLDER" == "" ]] || [[ "$SCRIPT_FOLDER" == "." ]] || [[ -z "$SCRI
   SCRIPT_FOLDER=$(pwd)
 fi
 
+echo "Upgrading packages..."
 "$SCRIPT_FOLDER"/upgrade.sh
 "$SCRIPT_FOLDER"/install/install.sh

@@ -7,6 +7,7 @@ if [[ "$SCRIPT_FOLDER" == "" ]] || [[ "$SCRIPT_FOLDER" == "." ]] || [[ -z "$SCRI
   SCRIPT_FOLDER=$(pwd)
 fi
 
-"$SCRIPT_FOLDER"/install-base-utilities.sh
-"$SCRIPT_FOLDER"/install-jdk.sh
-"$SCRIPT_FOLDER"/install-git.sh
+for filename in "$SCRIPT_FOLDER"/install-*.sh; do
+  echo && echo && echo && echo "Executing \"$filename\"..."
+  "$filename"
+done
