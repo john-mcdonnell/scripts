@@ -21,10 +21,10 @@ addToBashRC() {
 }
 ENVIRONMENT_VARIABLES="$HOME/.environment-variables"
 BASH_ALIASES_FILE="$HOME/.bash_aliases"
-BASH_PROMPT="$HOME/.bash_prompt"
+BASH_PROMPT="$HOME/.bash_prompt.sh"
 [ ! -f "$ENVIRONMENT_VARIABLES" ] && ln --force --symbolic "$SCRIPT_FOLDER/bash/.environment-variables" "$ENVIRONMENT_VARIABLES"
 [ ! -f "$BASH_ALIASES_FILE" ] && ln -s "$PWD/bash/.bash_aliases" "$BASH_ALIASES_FILE"
-[ ! -f "$BASH_PROMPT" ] && ln --force --symbolic "$SCRIPT_FOLDER/bash/.bash_prompt" "$BASH_PROMPT"
+[ ! -f "$BASH_PROMPT" ] && ln --force --symbolic "$SCRIPT_FOLDER/bash/.bash_prompt.sh" "$BASH_PROMPT"
 
 addToBashRC "$ENVIRONMENT_VARIABLES"
 addToBashRC "$BASH_ALIASES_FILE"
