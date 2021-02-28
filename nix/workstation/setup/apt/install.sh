@@ -10,3 +10,6 @@ fi
 echo "Upgrading packages..."
 "$SCRIPT_FOLDER"/upgrade.sh
 "$SCRIPT_FOLDER"/install/install.sh
+
+echo && echo && echo&& echo "Auto-removing packages..."
+sudo apt-get -y autoremove
