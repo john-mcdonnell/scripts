@@ -15,7 +15,7 @@ curl --request GET --fail --location https://download.docker.com/linux/ubuntu/gp
 [ "$(sudo APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=false apt-key fingerprint 0EBFCD88 | grep -c "Docker Release")" != 1 ] && echo "ERROR: Docker repository fingerprint cannot be confirmed."; exit 1
 
 sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"Repository
 
