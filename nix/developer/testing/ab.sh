@@ -13,4 +13,4 @@ CONCURRENCY=$1
 REQUESTS=$2
 URL=$3
 
-docker run --network=host --rm jordi/ab -k -c "$CONCURRENCY" -n "$REQUESTS" --network=host "$URL"
+docker run --rm jordi/ab -k -c "$CONCURRENCY" -n "$REQUESTS" "$URL"
