@@ -4,7 +4,7 @@
 #https://hub.docker.com/r/jordi/ab
 
 #Test:
-# 1. docker run -d --network=host jordi/server:http
+# 1. docker run -d --network=host c/server:http
 # 2. ab 10 100000 http://172.17.0.1:8080/
 
 #set -x
